@@ -198,7 +198,6 @@
       "Sprint Review is only for developers"
     ],
     "answer": [
-      0,
       2
     ]
   },
@@ -1837,7 +1836,7 @@
   {
     "question": "What is the best suited structure for Development Team…",
     "options": [
-      "Each Development Team develops functionality...",
+      "Each Development Team develops functionality",
       "Component-based teams",
       "Layer-based teams",
       "Feature-based teams only"

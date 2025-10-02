@@ -159,6 +159,8 @@ export default function App() {
 
   return (
     <div>
+      <h2>v2</h2>
+      <br></br>
       <h3>Domanda {current + 1} / {questions.length}</h3>
       <p>{q.question}</p>
       <p>

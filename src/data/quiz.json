@@ -718,13 +718,10 @@
       "There are no artifacts in Scrum",
       "Sprint Review is only for developers",
       "Transparency is not necessary",
-      "False",
-      "The Development Team includes cross-skilled individuals who are able to contribute to do what is necessary to deliver an increment of software.",
-      "They have all the expertise required for the product, in such a way that they do not need any help from the outside"
+      "False"
     ],
     "answer": [
-      4,
-      5
+      3
     ]
   },
   {
@@ -746,13 +743,10 @@
       "Transparency is not necessary",
       "Anyone can change the Sprint Backlog",
       "Sprint Review is only for developers",
-      "The team has all competencies needed to accomplish the work",
-      "The Development Team includes cross-skilled individuals who are able to contribute to do what is necessary to deliver an increment of software.",
-      "They have all the expertise required for the product, in such a way that they do not need any help from the outside"
+      "The team has all competencies needed to accomplish the work"
     ],
     "answer": [
-      4,
-      5
+      3
     ]
   },
   {
@@ -1785,13 +1779,10 @@
       "Development Team has all the skills to create…",
       "They have specialists for each role",
       "They report to multiple managers",
-      "They use external consultants",
-      "The Development Team includes cross-skilled individuals who are able to contribute to do what is necessary to deliver an increment of software.",
-      "They have all the expertise required for the product, in such a way that they do not need any help from the outside"
+      "They use external consultants"
     ],
     "answer": [
-      4,
-      5
+      0
     ]
   },
   {

@@ -207,10 +207,10 @@
   {
     "question": "Which of the following is required by Scrum?",
     "options": [
-      "Sprint Burndown Chart; Members must stand up at the Daily Scrum; Release Planning.",
-      "Requirements freeze during sprint",
-      "Sprint Retrospective",
-      "Sprint Review is only for developers"
+      "The Daily Scrum must occur every day during the Sprint.",
+      "A Sprint Burndown Chart must be used to track progress.",
+      "The Sprint Retrospective is held at the end of each Sprint.",
+      "Requirements must be frozen at the start of the Sprint."
     ],
     "answer": [
       0,
@@ -2500,7 +2500,7 @@
     "id": 186
   },
   {
-    "question": "What is the typical outcome of a Sprint? (quiz ID: NEW262)",
+    "question": "What is the typical outcome of a Sprint?",
     "options": [
       "A completed Gantt chart",
       "Valuable product functionality",

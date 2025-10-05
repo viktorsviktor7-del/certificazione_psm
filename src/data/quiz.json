@@ -11,7 +11,8 @@
       0,
       1,
       3
-    ]
+    ],
+    "id": 1
   },
   {
     "question": "What comprises Scrum?",
@@ -23,7 +24,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 2
   },
   {
     "question": "Scrum does not allow additional meetings that are not defined in Scrum",
@@ -35,7 +37,8 @@
     ],
     "answer": [
       1
-    ]
+    ],
+    "id": 3
   },
   {
     "question": "Scrum is founded on:",
@@ -47,7 +50,8 @@
     ],
     "answer": [
       1
-    ]
+    ],
+    "id": 4
   },
   {
     "question": "What is Scrum?",
@@ -59,7 +63,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 5
   },
   {
     "question": "What are the three pillars that uphold Scrum?",
@@ -73,7 +78,8 @@
       0,
       1,
       2
-    ]
+    ],
+    "id": 6
   },
   {
     "question": "What are the Scrum Artifacts?",
@@ -87,7 +93,8 @@
       0,
       2,
       3
-    ]
+    ],
+    "id": 7
   },
   {
     "question": "Scrum recommends using only those Scrum components and rules which suit most for a particular project",
@@ -99,7 +106,8 @@
     ],
     "answer": [
       2
-    ]
+    ],
+    "id": 8
   },
   {
     "question": "Upon what type of process control is Scrum based?",
@@ -111,7 +119,8 @@
     ],
     "answer": [
       2
-    ]
+    ],
+    "id": 9
   },
   {
     "question": "Which statement best describes Scrum?",
@@ -123,7 +132,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 10
   },
   {
     "question": "What are three ways Scrum promotes self-organization",
@@ -137,7 +147,8 @@
       0,
       2,
       3
-    ]
+    ],
+    "id": 11
   },
   {
     "question": "Scrum is a methodology that tells in detail how to build a software..",
@@ -149,7 +160,8 @@
     ],
     "answer": [
       2
-    ]
+    ],
+    "id": 12
   },
   {
     "question": "Which three of the following are true about Scrum?",
@@ -163,7 +175,8 @@
       0,
       2,
       3
-    ]
+    ],
+    "id": 13
   },
   {
     "question": "Does Scrum have a role called \"Project Manager\" ?",
@@ -175,7 +188,8 @@
     ],
     "answer": [
       2
-    ]
+    ],
+    "id": 14
   },
   {
     "question": "Scrum does not describe agile processes and techniques.",
@@ -187,7 +201,8 @@
     ],
     "answer": [
       1
-    ]
+    ],
+    "id": 15
   },
   {
     "question": "Which of the following is required by Scrum?",
@@ -198,8 +213,10 @@
       "Sprint Review is only for developers"
     ],
     "answer": [
+      0,
       2
-    ]
+    ],
+    "id": 16
   },
   {
     "question": "Which Scrum values are exhibited by not building Product Backlog…",
@@ -213,7 +230,8 @@
       2,
       3,
       1
-    ]
+    ],
+    "id": 17
   },
   {
     "question": "Which Scrum value is affected by a lack of trust in the Scrum Team?",
@@ -225,7 +243,8 @@
     ],
     "answer": [
       2
-    ]
+    ],
+    "id": 18
   },
   {
     "question": "In accordance with Scrum theory, how should a group of 100 people…",
@@ -237,7 +256,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 19
   },
   {
     "question": "Scrum does not have a role called \"project manager.\"",
@@ -249,7 +269,8 @@
     ],
     "answer": [
       2
-    ]
+    ],
+    "id": 20
   },
   {
     "question": "The three pillars of empirical process control are:",
@@ -263,7 +284,8 @@
       0,
       1,
       2
-    ]
+    ],
+    "id": 21
   },
   {
     "question": "What is the role of Management in Scrum?",
@@ -275,7 +297,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 22
   },
   {
     "question": "You have just been hired by a company new to Scrum. Your management has assigned you to be the Scrum Master of six new Scrum Teams. These teams will build one product. Select two conditions you should strive for in this scenario. Choose 2 answers",
@@ -288,7 +311,8 @@
     "answer": [
       2,
       3
-    ]
+    ],
+    "id": 23
   },
   {
     "question": "If an inspector determines that one or more aspects of a process deviate outside acceptable limits when an adjustment must be made?",
@@ -300,7 +324,8 @@
     ],
     "answer": [
       2
-    ]
+    ],
+    "id": 24
   },
   {
     "question": "What does Cone of Uncertainty show?",
@@ -312,7 +337,8 @@
     ],
     "answer": [
       2
-    ]
+    ],
+    "id": 25
   },
   {
     "question": "What are two ways that architecture and infrastructure are handled in Scrum? Choose 2 answers",
@@ -325,7 +351,8 @@
     "answer": [
       2,
       3
-    ]
+    ],
+    "id": 26
   },
   {
     "question": "What does Team Velocity measure?",
@@ -337,7 +364,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 27
   },
   {
     "question": "Which of the below are Scrum Values?",
@@ -351,7 +379,8 @@
       2,
       3,
       1
-    ]
+    ],
+    "id": 28
   },
   {
     "question": "Scrum is:",
@@ -365,7 +394,8 @@
       1,
       2,
       3
-    ]
+    ],
+    "id": 29
   },
   {
     "question": "It is a good practice to have from time to time a special technical Sprint, named Hardening Sprint, which consists only of task removing the technical debt without implementing any new funcionality. True or false?",
@@ -377,7 +407,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 30
   },
   {
     "question": "Which of the following are components of the scrum framework?",
@@ -392,7 +423,8 @@
       1,
       2,
       3
-    ]
+    ],
+    "id": 31
   },
   {
     "question": "Who are the founders of the Scrum?",
@@ -405,7 +437,8 @@
     "answer": [
       2,
       3
-    ]
+    ],
+    "id": 32
   },
   {
     "question": "What is the essence of scrum?",
@@ -417,7 +450,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 33
   },
   {
     "question": "What do the words DEVELOP and DEVELOPMENT mean in the context of scrum?",
@@ -429,7 +463,8 @@
     ],
     "answer": [
       1
-    ]
+    ],
+    "id": 34
   },
   {
     "question": "Where can Scrum be used? Check all the applicable items",
@@ -446,7 +481,8 @@
       2,
       3,
       4
-    ]
+    ],
+    "id": 35
   },
   {
     "question": "Is the Definition of Done a mandatory part of Scrum?",
@@ -459,19 +495,21 @@
     "answer": [
       2,
       3
-    ]
+    ],
+    "id": 36
   },
   {
     "question": "Scrum recommends to use only Scrum components and rules which suit most for a particular project. True or False?",
     "options": [
       "Requirements freeze during sprint",
-      "Daily Scrum lasts 1 hour",
+      "False",
       "The Scrum Master decides everything",
       "True"
     ],
     "answer": [
-      3
-    ]
+      1
+    ],
+    "id": 37
   },
   {
     "question": "A Scrum Team has been working on a product for nine Sprints…",
@@ -484,7 +522,8 @@
     "answer": [
       2,
       3
-    ]
+    ],
+    "id": 38
   },
   {
     "question": "For the purpose of transparency, when does Scrum say a new increment of working software must be available?",
@@ -496,7 +535,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 39
   },
   {
     "question": "What are two good ways for a Scrum Team to ensure security concerns are satisfied? Choose 2 answers",
@@ -509,7 +549,8 @@
     "answer": [
       2,
       3
-    ]
+    ],
+    "id": 40
   },
   {
     "question": "Five new Scrum Team have been created to build one product…",
@@ -521,7 +562,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 41
   },
   {
     "question": "Which outcome is expected as Scrum Teams mature?",
@@ -533,7 +575,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 42
   },
   {
     "question": "Multiple Scrum Teams working on the same project must have the same Sprint start date",
@@ -545,7 +588,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 43
   },
   {
     "question": "Every Scrum Team must have a Product Owner and Scrum Master",
@@ -557,7 +601,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 44
   },
   {
     "question": "When many Scrum Teams are working on the same product, should…",
@@ -569,7 +614,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 45
   },
   {
     "question": "A Scrum Team is only allowed to meet with stakeholders during…",
@@ -581,7 +627,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 46
   },
   {
     "question": "A properly functioning Scrum Team will have at least on Release Sprint…",
@@ -593,7 +640,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 47
   },
   {
     "question": "If two Scrum Teams are added to a project that previously had only one Scrum Team, what will be the immediate impact on the first Scrum Team's productivity?",
@@ -605,7 +653,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 48
   },
   {
     "question": "If two Scrum Teams are added to the development of a product that…",
@@ -617,7 +666,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 49
   },
   {
     "question": "Which of the below are roles on a Scrum Team?",
@@ -631,7 +681,8 @@
       1,
       2,
       3
-    ]
+    ],
+    "id": 50
   },
   {
     "question": "When multiple teams work together on the same product, each team should maintain a separate Product Backlog",
@@ -643,7 +694,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 51
   },
   {
     "question": "All the Scrum Teams working on the same product should have the same sprint length",
@@ -655,7 +707,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 52
   },
   {
     "question": "What are the three main qualities the team model in Scrum is designed to optimized?",
@@ -669,7 +722,8 @@
       1,
       2,
       3
-    ]
+    ],
+    "id": 53
   },
   {
     "question": "What are the two essential features a Scrum Team should possess?",
@@ -682,7 +736,8 @@
     "answer": [
       2,
       3
-    ]
+    ],
+    "id": 54
   },
   {
     "question": "How frequently scrum users should inspect Scrum artifacts and progress toward a Sprint Goal?",
@@ -696,7 +751,8 @@
       0,
       2,
       3
-    ]
+    ],
+    "id": 55
   },
   {
     "question": "As the Sprint Planning meeting progreahan the Development Team's capacity. Which two (2) actions make the most sense for the Scrum Team To do?",
@@ -709,7 +765,8 @@
     "answer": [
       2,
       3
-    ]
+    ],
+    "id": 56
   },
   {
     "question": "Cross-functional teams are optimized to work on one technical layer of the system only (eg. GUI, database, middle tier, interfaces).",
@@ -721,7 +778,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 57
   },
   {
     "question": "The Scrum Team has been working on a product for nine Sprints. A new Product Owner comes in, understanding he is accountable for the Product Backlog. However, he is unsure about his responsibilities. Which two activities are part of the Product Owner role according to Scrum? Choose 2 answers",
@@ -734,7 +792,8 @@
     "answer": [
       2,
       3
-    ]
+    ],
+    "id": 58
   },
   {
     "question": "Which statement best describes a cross-functional team?",
@@ -746,7 +805,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 59
   },
   {
     "question": "For which of the below the scrum master is responsible?",
@@ -758,7 +818,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 60
   },
   {
     "question": "Scrum recommends to have at least a business analyst inside the development team working side by side the key stakeholders",
@@ -770,7 +831,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 61
   },
   {
     "question": "Which of the following are the characteristics of a product owner?",
@@ -783,7 +845,8 @@
     "answer": [
       2,
       3
-    ]
+    ],
+    "id": 62
   },
   {
     "question": "Which of the following are the characteristics of a development team?",
@@ -796,7 +859,8 @@
     "answer": [
       2,
       3
-    ]
+    ],
+    "id": 63
   },
   {
     "question": "The Scrum Teams consists of",
@@ -810,7 +874,8 @@
       1,
       2,
       3
-    ]
+    ],
+    "id": 64
   },
   {
     "question": "How many people can be included in a development team at maximum according to the scrum guide?",
@@ -822,19 +887,21 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 65
   },
   {
     "question": "Suppose a company is trying to adopt the scrum framework. There are 11 developers, a product owner and you a scrum master. How can the developers be divided into teams?",
     "options": [
-      "Daily Scrum lasts 1 hour",
-      "Transparency is not necessary",
+      "2 teams of 5 and 6 people (each team is cross-functional)",
       "2 teams of 7 and 4 people (after a short meeting the developers decided this is the best option)",
-      "3 teams of 4,4 and 3 people (each team is cross-functional)"
+      "3 teams of 4,4 and 3 people (each team is cross-functional)",
+      "One big team of 11 people"
     ],
     "answer": [
-      3
-    ]
+      0
+    ],
+    "id": 66
   },
   {
     "question": "Which one of the below is managed by the Product owner?",
@@ -846,7 +913,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 67
   },
   {
     "question": "Suppose a development team does not have any testing specialists in the team. What they shoud do?",
@@ -859,7 +927,8 @@
     "answer": [
       2,
       3
-    ]
+    ],
+    "id": 68
   },
   {
     "question": "Helping employees and stakeholders understand and enact Scrum and empirical product development is ont of the way the Product owner serve the organization",
@@ -871,7 +940,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 69
   },
   {
     "question": "Which of the below roles are included in a Development Team according the Scrum Guide?",
@@ -883,7 +953,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 70
   },
   {
     "question": "It is a good practice to have at least two Product owners on big projects",
@@ -895,7 +966,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 71
   },
   {
     "question": "The Scrum Master observes the Product Owner struggling with ordering the Product Backlog. What is an appropriate action for the Scrum Master to take?",
@@ -907,7 +979,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 72
   },
   {
     "question": "The Scrum Master does the following regarding the Daily Scrum (select all applicable variants)",
@@ -920,9 +993,9 @@
     "answer": [
       0,
       1,
-      2,
-      3
-    ]
+      2
+    ],
+    "id": 73
   },
   {
     "question": "The Scrum Master is focused primarily on the Scrum Team and usually does not care about those outside the Scrum Team",
@@ -934,7 +1007,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 74
   },
   {
     "question": "Which two of the following are true about the Scrum Master role?",
@@ -947,7 +1021,8 @@
     "answer": [
       2,
       3
-    ]
+    ],
+    "id": 75
   },
   {
     "question": "How does the Scrum Master help the Product Owner? Select three.",
@@ -960,7 +1035,8 @@
       0,
       1,
       2
-    ]
+    ],
+    "id": 76
   },
   {
     "question": "Imagine you are a Scrum Master. There are 10 professionals (developers and Qas) and the Product Owner. How to distribute people between development teams?",
@@ -970,7 +1046,8 @@
     ],
     "answer": [
       1
-    ]
+    ],
+    "id": 77
   },
   {
     "question": "How does the Scrum Master serve the Development Team? Select three",
@@ -983,7 +1060,8 @@
       0,
       1,
       2
-    ]
+    ],
+    "id": 78
   },
   {
     "question": "How does the scrum master serve the Organization? Select the three most appropriate answers",
@@ -996,7 +1074,8 @@
       0,
       1,
       2
-    ]
+    ],
+    "id": 79
   },
   {
     "question": "A Scrum Master is working with a Development Team that has members in different physical locations. The Development Team meets in a variety of meeting rooms and has much to do logistically (for example, set up conference calls) before the Daily Scrum. What action should the Scrum Master take?",
@@ -1008,7 +1087,8 @@
     ],
     "answer": [
       1
-    ]
+    ],
+    "id": 80
   },
   {
     "question": "What is the tactic a Scrum Master  should use to divide a group of…",
@@ -1020,7 +1100,8 @@
     ],
     "answer": [
       2
-    ]
+    ],
+    "id": 81
   },
   {
     "question": "For which is the Scrum Master responsable?",
@@ -1032,7 +1113,8 @@
     ],
     "answer": [
       2
-    ]
+    ],
+    "id": 82
   },
   {
     "question": "During the daily Scrum, the Scrum Master's role is to:",
@@ -1044,7 +1126,8 @@
     ],
     "answer": [
       1
-    ]
+    ],
+    "id": 83
   },
   {
     "question": "A Scrum Master is introducing Scrum to a new Development…\nA Scrum Master is introducing Scrum to a new Development Team. The Development Team has decided that a retrospective is unnecessary. What action should the Scrum Master\ntake?",
@@ -1056,7 +1139,8 @@
     ],
     "answer": [
       2
-    ]
+    ],
+    "id": 84
   },
   {
     "question": "What are the two primary ways a Scrum Master keeps a Development Team working at its highest level or productivity?",
@@ -1067,7 +1151,8 @@
     "answer": [
       0,
       1
-    ]
+    ],
+    "id": 85
   },
   {
     "question": "Of the following choices, what is the most effective way a Scrum Master..",
@@ -1079,7 +1164,8 @@
     ],
     "answer": [
       2
-    ]
+    ],
+    "id": 86
   },
   {
     "question": "During the Sprint, the Scrum Master's role is to do which two of the following",
@@ -1090,7 +1176,8 @@
     "answer": [
       0,
       1
-    ]
+    ],
+    "id": 87
   },
   {
     "question": "What is the main reason for the Scrum Master to be at Daily Scrum?",
@@ -1102,7 +1189,8 @@
     ],
     "answer": [
       1
-    ]
+    ],
+    "id": 88
   },
   {
     "question": "Which of the following services are appropriate for a Scrum Master in regard to the Daily Scrum?",
@@ -1114,7 +1202,8 @@
     ],
     "answer": [
       1
-    ]
+    ],
+    "id": 89
   },
   {
     "question": "Which two things are appropriate for a Scrum Master to do if the Development Team doesn't have the engineering tools and infrastructure to completely finish each selected Product Backlog item? Choose 2 answers",
@@ -1127,7 +1216,8 @@
     "answer": [
       0,
       1
-    ]
+    ],
+    "id": 90
   },
   {
     "question": "Which technique is the best way the Scrum Master can ensure that the Development Team communicates effectively with the Product Owner?",
@@ -1139,7 +1229,8 @@
     ],
     "answer": [
       2
-    ]
+    ],
+    "id": 91
   },
   {
     "question": "The Development Team informs the Scrum Master that the IT manager has asked for a status report during the Sprint. The Scrum Master will:",
@@ -1151,7 +1242,8 @@
     ],
     "answer": [
       2
-    ]
+    ],
+    "id": 92
   },
   {
     "question": "As a Scrum Master, how would you divide a group of 100 people into multiple Development Teams?",
@@ -1163,7 +1255,8 @@
     ],
     "answer": [
       2
-    ]
+    ],
+    "id": 93
   },
   {
     "question": "A new developer is having continuing conflicts with existing Development Team members and creating a hostile environment. If necessary, who is responsible for removing the team member?",
@@ -1175,7 +1268,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 94
   },
   {
     "question": "A Scrum Master is introducing Scrum to a new Development Team. The Development Team has decided that a retrospective is unnecessary. What action should the Scrum Master take?",
@@ -1187,7 +1281,8 @@
     ],
     "answer": [
       2
-    ]
+    ],
+    "id": 95
   },
   {
     "question": "What are two guidelines a Scrum Master would use to divide a group of 100 people into multiple Development Teams? Choose 2 answers",
@@ -1200,7 +1295,8 @@
     "answer": [
       0,
       1
-    ]
+    ],
+    "id": 96
   },
   {
     "question": "What is the primary way a Scrum Master keeps a Development Team working at its highest level of productivity?",
@@ -1212,7 +1308,8 @@
     ],
     "answer": [
       2
-    ]
+    ],
+    "id": 97
   },
   {
     "question": "You are the Scrum Master on a newly formed Scrum Team. Which three of the following activities would probably help the team in starting up? Choose 3 answers",
@@ -1225,7 +1322,8 @@
       0,
       1,
       2
-    ]
+    ],
+    "id": 98
   },
   {
     "question": "A Scrum Master is keeping a list of open impediments, but it is growing and he/she has been able to resolve only a small portion of the impediments. Which three techniques would be most helpful in this situation? Choose 3 answers",
@@ -1238,7 +1336,8 @@
       0,
       1,
       2
-    ]
+    ],
+    "id": 99
   },
   {
     "question": "How does the Scrum Master serve the Product owner?",
@@ -1251,7 +1350,8 @@
       0,
       1,
       2
-    ]
+    ],
+    "id": 100
   },
   {
     "question": "During the Sprint Retrospective, the Development Team proposes moving the Daily Scrum to only occur on Tuesdays and Thursdays. Which two are the most appropriate responses for the Scrum Master? Choose 2 answers",
@@ -1264,7 +1364,8 @@
     "answer": [
       0,
       1
-    ]
+    ],
+    "id": 101
   },
   {
     "question": "The Product Owner must release each Increment of production",
@@ -1276,7 +1377,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 102
   },
   {
     "question": "The Product Owner determine how many Product Backlog items the Development Team selects for a Sprint?",
@@ -1288,7 +1390,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 103
   },
   {
     "question": "The Product Owner makes sure the team selects enough from the Product Backlog for a Sprint to satisfy the stakeholders.",
@@ -1300,7 +1403,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 104
   },
   {
     "question": "The Product Owner is not collaborating with the Development Team during the Sprint. What are two valuable actions for a Scrum Master to take?",
@@ -1311,7 +1415,8 @@
     "answer": [
       0,
       1
-    ]
+    ],
+    "id": 105
   },
   {
     "question": "Which of the following are true about the Product Owner role?",
@@ -1324,7 +1429,8 @@
       0,
       1,
       2
-    ]
+    ],
+    "id": 106
   },
   {
     "question": "What activities would a Product Owner typically undertake in the phase between the end of the current Sprint and the start of the next Sprint?",
@@ -1336,7 +1442,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 107
   },
   {
     "question": "What is the accountability of the Product Owner during Sprint 0",
@@ -1348,7 +1455,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 108
   },
   {
     "question": "Why should the Product Owner be present at Daily Scrum?",
@@ -1360,7 +1468,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 109
   },
   {
     "question": "Which phrase best describes a Product Owner?",
@@ -1372,7 +1481,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 110
   },
   {
     "question": "A Product Owner wants advice from the Scrum Master about estimating work in Scrum. Which of these is the guideline that a Scrum Master should give?",
@@ -1384,7 +1494,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 111
   },
   {
     "question": "Which two activities will a Product Owner engage in during a Sprint?",
@@ -1393,9 +1504,9 @@
       "Update the Sprint burndown chart"
     ],
     "answer": [
-      0,
-      1
-    ]
+      0
+    ],
+    "id": 112
   },
   {
     "question": "What are the three most applicable characteristics of the Product Owner?",
@@ -1408,7 +1519,8 @@
       0,
       1,
       2
-    ]
+    ],
+    "id": 113
   },
   {
     "question": "Which statement best describes a Product Owner's responsibility?",
@@ -1420,7 +1532,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 114
   },
   {
     "question": "It is a good practise to have at least two Product Owners on big projects",
@@ -1432,7 +1545,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 115
   },
   {
     "question": "During a Sprint Retrospective, for what is the Product Owner responsible?",
@@ -1444,7 +1558,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 116
   },
   {
     "question": "The product owner must attend the sprint retrospective. True or false?",
@@ -1456,7 +1571,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 117
   },
   {
     "question": "Which three activities will a Product Owner likely engage in during a Sprint?",
@@ -1469,7 +1585,8 @@
       0,
       1,
       2
-    ]
+    ],
+    "id": 118
   },
   {
     "question": "The Development Team does not have to explain to the Product Owner and the Scrum Master how it intends to work as a self-organizing team to accomplish the Sprint Goal and create the anticipated increment",
@@ -1480,8 +1597,9 @@
       "During Sprint Planning only"
     ],
     "answer": [
-      0
-    ]
+      1
+    ],
+    "id": 119
   },
   {
     "question": "What are the characteristics of a Development Team? Select three.",
@@ -1494,7 +1612,8 @@
       0,
       1,
       2
-    ]
+    ],
+    "id": 120
   },
   {
     "question": "What are the three main questions each member of the Development team should answer at the Daily scrum?",
@@ -1507,7 +1626,8 @@
       0,
       1,
       2
-    ]
+    ],
+    "id": 121
   },
   {
     "question": "What belongs solely to the Development team?",
@@ -1519,7 +1639,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 122
   },
   {
     "question": "What provides guidance to the Development Team on why it is building the increment?",
@@ -1531,7 +1652,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 123
   },
   {
     "question": "All Development teams working on the same Product should use the same Product backlog.",
@@ -1543,7 +1665,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 124
   },
   {
     "question": "What part of the capacity of the Development Team does Product Backlog refinement usually consume?",
@@ -1555,7 +1678,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 125
   },
   {
     "question": "When does a Development Team member become the sole owner of a Sprint Backlog item?",
@@ -1567,7 +1691,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 126
   },
   {
     "question": "What is the recommended size for a Development Team (within the Scrum Team)?",
@@ -1578,7 +1703,8 @@
     "answer": [
       0,
       1
-    ]
+    ],
+    "id": 127
   },
   {
     "question": "The Development Team should have all the skills needed to:",
@@ -1590,7 +1716,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 128
   },
   {
     "question": "Which two things should the Development Team do during the first Sprint?",
@@ -1601,7 +1728,8 @@
     "answer": [
       0,
       1
-    ]
+    ],
+    "id": 129
   },
   {
     "question": "What are two good ways for the Development Team to make non-functional requirements visible? Choose 2 answers",
@@ -1614,7 +1742,8 @@
     "answer": [
       0,
       1
-    ]
+    ],
+    "id": 130
   },
   {
     "question": "What does it mean for a Development Team (Scrum team) to be cross-functional?",
@@ -1625,7 +1754,8 @@
     "answer": [
       0,
       1
-    ]
+    ],
+    "id": 131
   },
   {
     "question": "As the Development Team starts work during the Sprint, it realizes it has…",
@@ -1637,19 +1767,23 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 132
   },
   {
-    "question": "When is it most appropriate for a Development Team to change the…",
+    "question": "What are the three Scrum Artifacts defined in the Scrum Guide?",
     "options": [
-      "During the Sprint Retrospective",
-      "During the Sprint",
-      "Only at Sprint Planning",
-      "After the Sprint Review"
+      "Product Backlog",
+      "Daily Scrum",
+      "Sprint Backlog",
+      "Increment"
     ],
     "answer": [
-      0
-    ]
+      0,
+      2,
+      3
+    ],
+    "id": 133
   },
   {
     "question": "How should a Development Team deal with non-functional requirements?",
@@ -1661,7 +1795,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 134
   },
   {
     "question": "When do Development Team members take ownership of a Sprint Backlog",
@@ -1673,7 +1808,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 135
   },
   {
     "question": "Why does a Development Team need a Sprint Goal?",
@@ -1685,7 +1821,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 136
   },
   {
     "question": "Which of these may a Development Team deliver at the end of a Sprint?",
@@ -1697,7 +1834,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 137
   },
   {
     "question": "Which three questions are answered by all Development Team…\nWhich three questions might be answered by Development Team members at the Daily Scrum?",
@@ -1710,7 +1848,8 @@
       0,
       1,
       2
-    ]
+    ],
+    "id": 138
   },
   {
     "question": "What is a Development Team responsible for?",
@@ -1721,7 +1860,8 @@
     "answer": [
       0,
       1
-    ]
+    ],
+    "id": 139
   },
   {
     "question": "When can a Development Team cancel a Sprint?",
@@ -1733,7 +1873,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 140
   },
   {
     "question": "When a Development Team is having trouble delivering…",
@@ -1745,7 +1886,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 141
   },
   {
     "question": "Choose two responsibilities of a self-organizing Development team",
@@ -1758,7 +1900,8 @@
     "answer": [
       0,
       1
-    ]
+    ],
+    "id": 142
   },
   {
     "question": "How often should Development Team membership change?\nDevelopment Team membership should change…",
@@ -1770,7 +1913,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 143
   },
   {
     "question": "How do you know that a Development Team is cross-functional",
@@ -1782,7 +1926,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 144
   },
   {
     "question": "Every Development Team should have:",
@@ -1794,7 +1939,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 145
   },
   {
     "question": "What happens if the Development Team cannot complete…",
@@ -1806,7 +1952,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 146
   },
   {
     "question": "A Development Team selects a set of Product Backlog items for a Sprint Backlog with the intent to get the selected items \"Done\" by the end of the Sprint. Which three phrases best describe the purpose of a definition of \"Done\"? Choose 3 answers",
@@ -1819,7 +1966,8 @@
       0,
       1,
       2
-    ]
+    ],
+    "id": 147
   },
   {
     "question": "How much work must a Development Team do to a Product Backlog item it selects for a Sprint?",
@@ -1831,19 +1979,21 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 148
   },
   {
     "question": "What is the best suited structure for Development Team…",
     "options": [
-      "Each Development Team develops functionality",
+      "Each Development Team develops functionality...",
       "Component-based teams",
       "Layer-based teams",
       "Feature-based teams only"
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 149
   },
   {
     "question": "Who should make sure everyone on the Development Team does his or her tasks for the Sprint?",
@@ -1855,7 +2005,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 150
   },
   {
     "question": "The CEO asks  the Development Team to add a \"very important\" item to a Sprint that is in progress. What should the Development Team do?",
@@ -1868,7 +2019,8 @@
     "answer": [
       0,
       1
-    ]
+    ],
+    "id": 151
   },
   {
     "question": "A Development Team is required to deliver a done increment by the end…",
@@ -1879,7 +2031,8 @@
     "answer": [
       0,
       1
-    ]
+    ],
+    "id": 152
   },
   {
     "question": "Could the Product Owner and the Scrum Master be a part of the Development Team?",
@@ -1891,7 +2044,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 153
   },
   {
     "question": "Which does a self-organizing Development Team choose?",
@@ -1903,7 +2057,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 154
   },
   {
     "question": "A member of the Development Team takes the Scrum Master aside to express his concerns about data security issues. What should the Scrum Master do?",
@@ -1915,7 +2070,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 155
   },
   {
     "question": "The Development Team should not be interrupted during the Sprint. The Sprint Goal should remain intact. These are conditions that foster creativity",
@@ -1927,7 +2083,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 156
   },
   {
     "question": "Who can participate in the Sprint Retrospective? (quiz ID: NEW213)",
@@ -1939,7 +2096,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 157
   },
   {
     "question": "Which Scrum event is primarily focused on inspecting the Increment and adapting the Product Backlog if needed? (quiz ID: NEW214)",
@@ -1951,7 +2109,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 158
   },
   {
     "question": "What is the typical outcome of a Sprint? (quiz ID: NEW215)",
@@ -1964,7 +2123,8 @@
     "answer": [
       1,
       3
-    ]
+    ],
+    "id": 159
   },
   {
     "question": "How is Product Backlog prioritized? (quiz ID: NEW216)",
@@ -1977,7 +2137,8 @@
     "answer": [
       3,
       1
-    ]
+    ],
+    "id": 160
   },
   {
     "question": "Which document is updated as new requirements emerge during the project? (quiz ID: NEW217)",
@@ -1989,7 +2150,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 161
   },
   {
     "question": "How is Product Backlog prioritized? (quiz ID: NEW218)",
@@ -2002,7 +2164,8 @@
     "answer": [
       1,
       2
-    ]
+    ],
+    "id": 162
   },
   {
     "question": "Which Scrum event is primarily focused on inspecting the Increment and adapting the Product Backlog if needed? (quiz ID: NEW219)",
@@ -2014,7 +2177,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 163
   },
   {
     "question": "Which Scrum Value encourages team members to support each other even through challenges? (quiz ID: NEW220)",
@@ -2028,7 +2192,8 @@
       1,
       2,
       3
-    ]
+    ],
+    "id": 164
   },
   {
     "question": "Which of the following is NOT a responsibility of the Scrum Master? (quiz ID: NEW221)",
@@ -2040,7 +2205,8 @@
     ],
     "answer": [
       2
-    ]
+    ],
+    "id": 165
   },
   {
     "question": "Which Scrum event is primarily focused on inspecting the Increment and adapting the Product Backlog if needed? (quiz ID: NEW222)",
@@ -2052,7 +2218,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 166
   },
   {
     "question": "How is Product Backlog prioritized? (quiz ID: NEW223)",
@@ -2065,7 +2232,8 @@
     "answer": [
       0,
       1
-    ]
+    ],
+    "id": 167
   },
   {
     "question": "Which of the following is NOT a responsibility of the Scrum Master? (quiz ID: NEW224)",
@@ -2077,7 +2245,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 168
   },
   {
     "question": "What does the Definition of Done provide to the Scrum Team? (quiz ID: NEW225)",
@@ -2090,7 +2259,8 @@
     "answer": [
       2,
       3
-    ]
+    ],
+    "id": 169
   },
   {
     "question": "Which document is updated as new requirements emerge during the project? (quiz ID: NEW226)",
@@ -2102,7 +2272,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 170
   },
   {
     "question": "Who can participate in the Sprint Retrospective? (quiz ID: NEW227)",
@@ -2114,7 +2285,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 171
   },
   {
     "question": "Which Scrum event is primarily focused on inspecting the Increment and adapting the Product Backlog if needed? (quiz ID: NEW228)",
@@ -2126,7 +2298,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 172
   },
   {
     "question": "What is the typical outcome of a Sprint? (quiz ID: NEW229)",
@@ -2139,7 +2312,8 @@
     "answer": [
       1,
       3
-    ]
+    ],
+    "id": 173
   },
   {
     "question": "What does the Definition of Done provide to the Scrum Team? (quiz ID: NEW230)",
@@ -2152,7 +2326,8 @@
     "answer": [
       2,
       3
-    ]
+    ],
+    "id": 174
   },
   {
     "question": "What three pillars uphold every implementation of empirical process control? (quiz ID: NEW231)",
@@ -2166,7 +2341,8 @@
       0,
       1,
       2
-    ]
+    ],
+    "id": 175
   },
   {
     "question": "Which of the following is NOT a responsibility of the Scrum Master? (quiz ID: NEW232)",
@@ -2178,7 +2354,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 176
   },
   {
     "question": "Who can participate in the Sprint Retrospective? (quiz ID: NEW233)",
@@ -2190,7 +2367,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 177
   },
   {
     "question": "Which of the following is NOT a responsibility of the Scrum Master? (quiz ID: NEW234)",
@@ -2202,7 +2380,8 @@
     ],
     "answer": [
       1
-    ]
+    ],
+    "id": 178
   },
   {
     "question": "What does the Definition of Done provide to the Scrum Team? (quiz ID: NEW235)",
@@ -2215,7 +2394,8 @@
     "answer": [
       2,
       3
-    ]
+    ],
+    "id": 179
   },
   {
     "question": "What does the Definition of Done provide to the Scrum Team? (quiz ID: NEW236)",
@@ -2228,7 +2408,8 @@
     "answer": [
       2,
       3
-    ]
+    ],
+    "id": 180
   },
   {
     "question": "Which Scrum Value encourages team members to support each other even through challenges? (quiz ID: NEW237)",
@@ -2242,7 +2423,8 @@
       1,
       2,
       3
-    ]
+    ],
+    "id": 181
   },
   {
     "question": "What three pillars uphold every implementation of empirical process control? (quiz ID: NEW238)",
@@ -2256,7 +2438,8 @@
       0,
       1,
       2
-    ]
+    ],
+    "id": 182
   },
   {
     "question": "Which of the following is NOT a responsibility of the Scrum Master? (quiz ID: NEW239)",
@@ -2268,7 +2451,8 @@
     ],
     "answer": [
       2
-    ]
+    ],
+    "id": 183
   },
   {
     "question": "How is Product Backlog prioritized? (quiz ID: NEW240)",
@@ -2281,7 +2465,8 @@
     "answer": [
       0,
       2
-    ]
+    ],
+    "id": 184
   },
   {
     "question": "What three pillars uphold every implementation of empirical process control? (quiz ID: NEW260)",
@@ -2295,7 +2480,8 @@
       0,
       1,
       2
-    ]
+    ],
+    "id": 185
   },
   {
     "question": "Which Scrum Value encourages team members to support each other even through challenges? (quiz ID: NEW261)",
@@ -2309,7 +2495,8 @@
       1,
       2,
       3
-    ]
+    ],
+    "id": 186
   },
   {
     "question": "What is the typical outcome of a Sprint? (quiz ID: NEW262)",
@@ -2322,7 +2509,8 @@
     "answer": [
       1,
       3
-    ]
+    ],
+    "id": 187
   },
   {
     "question": "Which document is updated as new requirements emerge during the project? (quiz ID: NEW263)",
@@ -2334,7 +2522,8 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 188
   },
   {
     "question": "What is the typical outcome of a Sprint? (quiz ID: NEW264)",
@@ -2347,7 +2536,8 @@
     "answer": [
       1,
       3
-    ]
+    ],
+    "id": 189
   },
   {
     "question": "Which document is updated as new requirements emerge during the project? (quiz ID: NEW265)",
@@ -2359,7 +2549,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 190
   },
   {
     "question": "What is the typical outcome of a Sprint? (quiz ID: NEW266)",
@@ -2372,7 +2563,8 @@
     "answer": [
       1,
       3
-    ]
+    ],
+    "id": 191
   },
   {
     "question": "Which document is updated as new requirements emerge during the project? (quiz ID: NEW267)",
@@ -2384,7 +2576,8 @@
     ],
     "answer": [
       1
-    ]
+    ],
+    "id": 192
   },
   {
     "question": "Which of the following is NOT a responsibility of the Scrum Master? (quiz ID: NEW268)",
@@ -2396,7 +2589,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 193
   },
   {
     "question": "Which Scrum event is primarily focused on inspecting the Increment and adapting the Product Backlog if needed? (quiz ID: NEW269)",
@@ -2408,7 +2602,8 @@
     ],
     "answer": [
       0
-    ]
+    ],
+    "id": 194
   },
   {
     "question": "Who can participate in the Sprint Retrospective? (quiz ID: NEW270)",
@@ -2420,6 +2615,7 @@
     ],
     "answer": [
       3
-    ]
+    ],
+    "id": 195
   }
 ]

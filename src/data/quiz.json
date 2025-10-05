@@ -1041,7 +1041,7 @@
   {
     "question": "Imagine you are a Scrum Master. There are 10 professionals (developers and Qas) and the Product Owner. How to distribute people between development teams?",
     "options": [
-      "2 teams of 6 and 4 people (the professionals after a short meeting decides this is the best variants)",
+      "2 teams of 5 and 4 people (the professionals after a short meeting decides this is the best variants)",
       "3 teams of 4, 3 and 3 people (each team is cross-functional)"
     ],
     "answer": [
@@ -2087,7 +2087,7 @@
     "id": 156
   },
   {
-    "question": "Who can participate in the Sprint Retrospective? (quiz ID: NEW213)",
+    "question": "Who can participate in the Sprint Retrospective? ",
     "options": [
       "Anyone in the organization",
       "Only the Product Owner",
@@ -2100,7 +2100,7 @@
     "id": 157
   },
   {
-    "question": "Which Scrum event is primarily focused on inspecting the Increment and adapting the Product Backlog if needed? (quiz ID: NEW214)",
+    "question": "Which Scrum event is primarily focused on inspecting the Increment and adapting the Product Backlog if needed? ",
     "options": [
       "Sprint Planning",
       "Sprint Retrospective",
@@ -2113,7 +2113,7 @@
     "id": 158
   },
   {
-    "question": "What is the typical outcome of a Sprint? (quiz ID: NEW215)",
+    "question": "What is the typical outcome of a Sprint?",
     "options": [
       "A completed Gantt chart",
       "Valuable product functionality",
@@ -2127,7 +2127,7 @@
     "id": 159
   },
   {
-    "question": "How is Product Backlog prioritized? (quiz ID: NEW216)",
+    "question": "How is Product Backlog prioritized?",
     "options": [
       "By the Scrum Master",
       "Based on value",
@@ -2135,13 +2135,13 @@
       "By the Product Owner"
     ],
     "answer": [
-      3,
-      1
+      1,
+      3
     ],
     "id": 160
   },
   {
-    "question": "Which document is updated as new requirements emerge during the project? (quiz ID: NEW217)",
+    "question": "Which document is updated as new requirements emerge during the project?",
     "options": [
       "Release Plan",
       "Definition of Done",
@@ -2154,7 +2154,7 @@
     "id": 161
   },
   {
-    "question": "How is Product Backlog prioritized? (quiz ID: NEW218)",
+    "question": "How is Product Backlog prioritized?",
     "options": [
       "Randomly",
       "Based on value",
@@ -2168,7 +2168,7 @@
     "id": 162
   },
   {
-    "question": "Which Scrum event is primarily focused on inspecting the Increment and adapting the Product Backlog if needed? (quiz ID: NEW219)",
+    "question": "Which Scrum event is primarily focused on inspecting the Increment and adapting the Product Backlog if needed?",
     "options": [
       "Sprint Retrospective",
       "Daily Scrum",
@@ -2181,7 +2181,7 @@
     "id": 163
   },
   {
-    "question": "Which Scrum Value encourages team members to support each other even through challenges? (quiz ID: NEW220)",
+    "question": "Which Scrum Value encourages team members to support each other even through challenges?",
     "options": [
       "Fun",
       "Commitment",
@@ -2196,7 +2196,7 @@
     "id": 164
   },
   {
-    "question": "Which of the following is NOT a responsibility of the Scrum Master? (quiz ID: NEW221)",
+    "question": "Which of the following is NOT a responsibility of the Scrum Master?",
     "options": [
       "Removing impediments",
       "Facilitating Scrum events as needed",
@@ -2209,7 +2209,7 @@
     "id": 165
   },
   {
-    "question": "Which Scrum event is primarily focused on inspecting the Increment and adapting the Product Backlog if needed? (quiz ID: NEW222)",
+    "question": "Which Scrum event is primarily focused on inspecting the Increment and adapting the Product Backlog if needed?",
     "options": [
       "Sprint Planning",
       "Daily Scrum",
@@ -2222,7 +2222,7 @@
     "id": 166
   },
   {
-    "question": "How is Product Backlog prioritized? (quiz ID: NEW223)",
+    "question": "How is Product Backlog prioritized?",
     "options": [
       "Based on value",
       "By the Product Owner",
@@ -2236,7 +2236,7 @@
     "id": 167
   },
   {
-    "question": "Which of the following is NOT a responsibility of the Scrum Master? (quiz ID: NEW224)",
+    "question": "Which of the following is NOT a responsibility of the Scrum Master?",
     "options": [
       "Coaching the team in self-organization",
       "Facilitating Scrum events as needed",
@@ -2249,7 +2249,7 @@
     "id": 168
   },
   {
-    "question": "What does the Definition of Done provide to the Scrum Team? (quiz ID: NEW225)",
+    "question": "What does the Definition of Done provide to the Scrum Team?",
     "options": [
       "Permission to release to customers",
       "A checklist of necessary development tasks",
@@ -2263,7 +2263,7 @@
     "id": 169
   },
   {
-    "question": "Which document is updated as new requirements emerge during the project? (quiz ID: NEW226)",
+    "question": "Which document is updated as new requirements emerge during the project?",
     "options": [
       "Sprint Backlog",
       "Release Plan",
@@ -2276,7 +2276,7 @@
     "id": 170
   },
   {
-    "question": "Who can participate in the Sprint Retrospective? (quiz ID: NEW227)",
+    "question": "Who can participate in the Sprint Retrospective?",
     "options": [
       "Anyone in the organization",
       "Only the Product Owner",
@@ -2289,7 +2289,7 @@
     "id": 171
   },
   {
-    "question": "Which Scrum event is primarily focused on inspecting the Increment and adapting the Product Backlog if needed? (quiz ID: NEW228)",
+    "question": "Which Scrum event is primarily focused on inspecting the Increment and adapting the Product Backlog if needed?",
     "options": [
       "Sprint Planning",
       "Sprint Retrospective",
@@ -2302,7 +2302,7 @@
     "id": 172
   },
   {
-    "question": "What is the typical outcome of a Sprint? (quiz ID: NEW229)",
+    "question": "What is the typical outcome of a Sprint?",
     "options": [
       "A completed Gantt chart",
       "Valuable product functionality",
@@ -2316,7 +2316,7 @@
     "id": 173
   },
   {
-    "question": "What does the Definition of Done provide to the Scrum Team? (quiz ID: NEW230)",
+    "question": "What does the Definition of Done provide to the Scrum Team?",
     "options": [
       "Permission to release to customers",
       "A checklist of necessary development tasks",
@@ -2330,7 +2330,7 @@
     "id": 174
   },
   {
-    "question": "What three pillars uphold every implementation of empirical process control? (quiz ID: NEW231)",
+    "question": "What three pillars uphold every implementation of empirical process control?",
     "options": [
       "Transparency",
       "Inspection",
@@ -2345,7 +2345,7 @@
     "id": 175
   },
   {
-    "question": "Which of the following is NOT a responsibility of the Scrum Master? (quiz ID: NEW232)",
+    "question": "Which of the following is NOT a responsibility of the Scrum Master?",
     "options": [
       "Removing impediments",
       "Facilitating Scrum events as needed",
@@ -2358,7 +2358,7 @@
     "id": 176
   },
   {
-    "question": "Who can participate in the Sprint Retrospective? (quiz ID: NEW233)",
+    "question": "Who can participate in the Sprint Retrospective?",
     "options": [
       "Anyone in the organization",
       "Only the Product Owner",
@@ -2371,7 +2371,7 @@
     "id": 177
   },
   {
-    "question": "Which of the following is NOT a responsibility of the Scrum Master? (quiz ID: NEW234)",
+    "question": "Which of the following is NOT a responsibility of the Scrum Master?",
     "options": [
       "Removing impediments",
       "Writing code",
@@ -2384,7 +2384,7 @@
     "id": 178
   },
   {
-    "question": "What does the Definition of Done provide to the Scrum Team? (quiz ID: NEW235)",
+    "question": "What does the Definition of Done provide to the Scrum Team?",
     "options": [
       "Permission to release to customers",
       "A checklist of necessary development tasks",
@@ -2398,7 +2398,7 @@
     "id": 179
   },
   {
-    "question": "What does the Definition of Done provide to the Scrum Team? (quiz ID: NEW236)",
+    "question": "What does the Definition of Done provide to the Scrum Team?",
     "options": [
       "Permission to release to customers",
       "A checklist of necessary development tasks",
@@ -2412,7 +2412,7 @@
     "id": 180
   },
   {
-    "question": "Which Scrum Value encourages team members to support each other even through challenges? (quiz ID: NEW237)",
+    "question": "Which Scrum Value encourages team members to support each other even through challenges?",
     "options": [
       "Fun",
       "Commitment",
@@ -2427,7 +2427,7 @@
     "id": 181
   },
   {
-    "question": "What three pillars uphold every implementation of empirical process control? (quiz ID: NEW238)",
+    "question": "What three pillars uphold every implementation of empirical process control?",
     "options": [
       "Transparency",
       "Inspection",
@@ -2442,7 +2442,7 @@
     "id": 182
   },
   {
-    "question": "Which of the following is NOT a responsibility of the Scrum Master? (quiz ID: NEW239)",
+    "question": "Which of the following is NOT a responsibility of the Scrum Master?",
     "options": [
       "Facilitating Scrum events as needed",
       "Coaching the team in self-organization",
@@ -2455,7 +2455,7 @@
     "id": 183
   },
   {
-    "question": "How is Product Backlog prioritized? (quiz ID: NEW240)",
+    "question": "How is Product Backlog prioritized?",
     "options": [
       "By the Product Owner",
       "By the Scrum Master",
@@ -2469,7 +2469,7 @@
     "id": 184
   },
   {
-    "question": "What three pillars uphold every implementation of empirical process control? (quiz ID: NEW260)",
+    "question": "What three pillars uphold every implementation of empirical process control?",
     "options": [
       "Transparency",
       "Inspection",
@@ -2484,15 +2484,16 @@
     "id": 185
   },
   {
-    "question": "Which Scrum Value encourages team members to support each other even through challenges? (quiz ID: NEW261)",
+    "question": "Which of the following are responsibilities of the Product Owner during the Sprint?",
     "options": [
-      "Fun",
-      "Commitment",
-      "Courage",
-      "Respect"
+      "Clarifying requirements for the Development Team",
+      "Attending all Daily Scrums and assigning tasks",
+      "Updating the Product Backlog as needed",
+      "Prioritizing items based on business value",
+      "Authorizing releases without stakeholder involvement"
     ],
     "answer": [
-      1,
+      0,
       2,
       3
     ],
@@ -2513,7 +2514,7 @@
     "id": 187
   },
   {
-    "question": "Which document is updated as new requirements emerge during the project? (quiz ID: NEW263)",
+    "question": "Which document is updated as new requirements emerge during the project?",
     "options": [
       "Sprint Backlog",
       "Definition of Done",
@@ -2526,7 +2527,7 @@
     "id": 188
   },
   {
-    "question": "What is the typical outcome of a Sprint? (quiz ID: NEW264)",
+    "question": "What is the typical outcome of a Sprint?",
     "options": [
       "A completed Gantt chart",
       "Valuable product functionality",
@@ -2540,7 +2541,7 @@
     "id": 189
   },
   {
-    "question": "Which document is updated as new requirements emerge during the project? (quiz ID: NEW265)",
+    "question": "Which document is updated as new requirements emerge during the project?",
     "options": [
       "Product Backlog",
       "Definition of Done",
@@ -2553,7 +2554,7 @@
     "id": 190
   },
   {
-    "question": "What is the typical outcome of a Sprint? (quiz ID: NEW266)",
+    "question": "What is the typical outcome of a Sprint?",
     "options": [
       "A completed Gantt chart",
       "Valuable product functionality",
@@ -2567,7 +2568,7 @@
     "id": 191
   },
   {
-    "question": "Which document is updated as new requirements emerge during the project? (quiz ID: NEW267)",
+    "question": "Which document is updated as new requirements emerge during the project?",
     "options": [
       "Definition of Done",
       "Product Backlog",
@@ -2580,7 +2581,7 @@
     "id": 192
   },
   {
-    "question": "Which of the following is NOT a responsibility of the Scrum Master? (quiz ID: NEW268)",
+    "question": "Which of the following is NOT a responsibility of the Scrum Master?",
     "options": [
       "Writing code",
       "Removing impediments",
@@ -2593,7 +2594,7 @@
     "id": 193
   },
   {
-    "question": "Which Scrum event is primarily focused on inspecting the Increment and adapting the Product Backlog if needed? (quiz ID: NEW269)",
+    "question": "Which Scrum event is primarily focused on inspecting the Increment and adapting the Product Backlog if needed?",
     "options": [
       "Sprint Review",
       "Sprint Planning",
@@ -2606,7 +2607,7 @@
     "id": 194
   },
   {
-    "question": "Who can participate in the Sprint Retrospective? (quiz ID: NEW270)",
+    "question": "Who can participate in the Sprint Retrospective?",
     "options": [
       "Anyone in the organization",
       "Only the Product Owner",
@@ -2619,3 +2620,4 @@
     "id": 195
   }
 ]
+

@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
-import quizData from './data/quiz.json'; // ora usa la versione con id
+import quizData from './data/quiz.json'; // deve contenere: [{id, question, options:[], answer:[indices]}]
 
 const MAX_TIME_SECONDS = 60 * 60; // 60 minuti
 
@@ -22,6 +22,7 @@ export default function App() {
   const [endTime, setEndTime] = useState(null);
   const [paused, setPaused] = useState(false);
   const [elapsed, setElapsed] = useState(0);
+  const [showLiveStats, setShowLiveStats] = useState(false); // live stats toggle
   const timerRef = useRef();
 
   // Avvia nuovo quiz (usata anche per restart)
@@ -34,6 +35,7 @@ export default function App() {
     setEndTime(null);
     setPaused(false);
     setElapsed(0);
+    setShowLiveStats(false);
   }
 
   useEffect(() => {
@@ -85,14 +87,17 @@ export default function App() {
     }
   }
 
+  function isCorrectFor(q, userAns) {
+    const ua = Array.isArray(userAns) ? userAns : [];
+    const ca = Array.isArray(q.answer) ? q.answer : [];
+    return JSON.stringify(ca.slice().sort()) === JSON.stringify(ua.slice().sort());
+  }
+
   function getScore() {
     let score = 0;
     questions.forEach((q) => {
       const userAns = answers[q.id] || [];
-      const isCorrect =
-        JSON.stringify((q.answer || []).slice().sort()) ===
-        JSON.stringify(userAns.slice().sort());
-      if (isCorrect) score++;
+      if (isCorrectFor(q, userAns)) score++;
     });
     return score;
   }
@@ -101,19 +106,42 @@ export default function App() {
     return questions
       .map(q => {
         const userAns = answers[q.id] || [];
-        const isCorrect = JSON.stringify((q.answer || []).slice().sort()) === JSON.stringify(userAns.slice().sort());
+        const correct = Array.isArray(q.answer) ? q.answer : [q.answer];
+        const isCorrect = isCorrectFor(q, userAns);
         if (!isCorrect) {
           return {
             id: q.id,
             question: q.question,
             options: q.options,
-            correct: Array.isArray(q.answer) ? q.answer : [q.answer],
+            correct,
             user: Array.isArray(userAns) ? userAns : [userAns]
           };
         }
         return null;
       })
       .filter(Boolean);
+  }
+
+  function getAnsweredCount() {
+    let count = 0;
+    for (const q of questions) {
+      const a = answers[q.id];
+      if (Array.isArray(a) && a.length > 0) count++;
+    }
+    return count;
+  }
+
+  function getLiveScore() {
+    let correct = 0;
+    let answered = 0;
+    for (const q of questions) {
+      const ua = answers[q.id];
+      if (Array.isArray(ua) && ua.length > 0) {
+        answered++;
+        if (isCorrectFor(q, ua)) correct++;
+      }
+    }
+    return { correct, answered };
   }
 
   function prettyTime(s) {
@@ -176,16 +204,35 @@ export default function App() {
   const q = questions[current];
   const answerKey = currentKey();
 
+  // statistiche live
+  const total = questions.length;
+  const answeredCount = getAnsweredCount();
+  const progressPct = total > 0 ? ((answeredCount / total) * 100).toFixed(1) : "0.0";
+  const { correct, answered } = getLiveScore();
+  const passPct = answered > 0 ? ((correct / answered) * 100).toFixed(1) : "0.0";
+
+  // stima minima/massima a fine quiz se mantieni lo stesso ritmo
+  // minimo = mantieni la stessa accuracy sulle restanti (ipotizzandole tutte sbagliate è troppo pessimista)
+  // qui facciamo due indicatori utili:
+  // - Proiezione lineare: accuracy_attuale * totale
+  // - Best case ragionevole: corrette attuali + tutte le restanti corrette (indicativo)
+  const projectedFinalCorrect = answered > 0 ? Math.round((correct / answered) * total) : 0;
+  const bestCaseFinalCorrect = correct + (total - answered); // tutte le restanti giuste
+  const needFor68 = Math.max(0, Math.ceil(0.68 * total) - correct); // quante corrette ti mancano per arrivare al 68% sul totale
+
   return (
     <div className="quiz-main">
       <h1 className="app-title">Scrum Master Exam v.8<span role="img" aria-label="scrum">📝</span></h1>
+
       <div className="question-progress">
         <span className="badge">Domanda {current + 1} / {questions.length}</span>
         <span className="id-badge">ID {q.id}</span>
       </div>
+
       <div className="question-text">
         <strong>{q.question}</strong>
       </div>
+
       <div className="timer-block">
         <span><strong>Timer:</strong> {prettyTime(elapsed)} / 60:00</span>
         {paused ? (
@@ -193,10 +240,54 @@ export default function App() {
         ) : (
           <button className="pause-btn" onClick={() => setPaused(true)}>Pausa Timer</button>
         )}
+        <button
+          className="live-stats-btn"
+          onClick={() => setShowLiveStats(v => !v)}
+          disabled={paused}
+          title="Mostra percentuali di avanzamento e superamento"
+        >
+          {showLiveStats ? "Nascondi percentuale" : "Mostra percentuale"}
+        </button>
       </div>
+
+      {showLiveStats && (
+        <div className="live-stats-panel">
+          <div className="live-stat-row">
+            <span className="live-label">Avanzamento:</span>
+            <span className="live-value">
+              {answeredCount}/{total} ({progressPct}%)
+            </span>
+          </div>
+          <div className="live-stat-row">
+            <span className="live-label">Percentuale di superamento (finora):</span>
+            <span className="live-value success">
+              {answered > 0 ? `${correct}/${answered} (${passPct}%)` : "N.D."}
+            </span>
+          </div>
+          <div className="live-stat-row">
+            <span className="live-label">Proiezione finale (lineare):</span>
+            <span className="live-value">
+              {answered > 0 ? `${projectedFinalCorrect}/${total} (${((projectedFinalCorrect / total) * 100).toFixed(1)}%)` : "N.D."}
+            </span>
+          </div>
+          <div className="live-stat-row">
+            <span className="live-label">Best case (indicativo):</span>
+            <span className="live-value">
+              {`${bestCaseFinalCorrect}/${total} (${((bestCaseFinalCorrect / total) * 100).toFixed(1)}%)`}
+            </span>
+          </div>
+          <div className="live-hint">
+            Per arrivare al 68% sul totale servono ancora: <strong>{needFor68}</strong> risposte corrette.
+          </div>
+        </div>
+      )}
+
       <ul className="option-list">
         {q.options.map((option, idx) => (
-          <li key={idx} className={`option-item${Array.isArray(answers[answerKey]) && answers[answerKey].includes(idx) ? ' selected' : ''}`}>
+          <li
+            key={idx}
+            className={`option-item${Array.isArray(answers[answerKey]) && answers[answerKey].includes(idx) ? ' selected' : ''}`}
+          >
             <label>
               <input
                 type="checkbox"
@@ -209,6 +300,7 @@ export default function App() {
           </li>
         ))}
       </ul>
+
       <button
         className="next-btn"
         onClick={nextQuestion}
@@ -216,9 +308,11 @@ export default function App() {
       >
         {current + 1 === questions.length ? "Termina e mostra risultato" : "Prossima domanda"}
       </button>
+
       {elapsed >= MAX_TIME_SECONDS && (
         <div className="timeout-alert">Tempo scaduto! Quiz terminato automaticamente.</div>
       )}
+
       <style>{`
         .app-title { color: #1976D2; text-align: center; margin-bottom: 10px; }
         .quiz-main { padding: 24px 12px; max-width: 510px; margin: 32px auto; background: #f7faff; border-radius: 12px; border: 1px solid #e8eaf6; box-shadow: 0 2px 12px #e0e0e0; }
@@ -228,12 +322,14 @@ export default function App() {
         .question-text { font-size: 1.09em; margin-bottom: 18px; }
         .timer-block { margin-bottom: 16px; display: flex; gap: 12px; align-items: center;}
         .pause-btn { padding: 4px 18px; border-radius: 7px; border: none; background: #e3f2fd; color: #0d47a1; cursor: pointer; font-weight: 500; box-shadow: 0 1px 4px #e0e0e0;}
+        .live-stats-btn { padding: 4px 12px; border-radius: 7px; border: none; background: #e8f5e9; color: #1b5e20; cursor: pointer; font-weight: 600; box-shadow: 0 1px 4px #e0e0e0; }
         .option-list { list-style: none; padding: 0; margin-bottom: 22px;}
         .option-item { margin: 7px 0; padding: 6px 8px; background: #fff; border-radius: 8px; transition: background 0.2s;}
         .option-item.selected { background: #BBDEFB; }
         .next-btn { background: #2196F3; color: #fff; border: none; padding: 8px 21px; border-radius: 7px; font-size: 1em; cursor: pointer; font-weight: 600; box-shadow: 0 1px 4px #e0e0e0;}
         .next-btn:disabled { background: #b6c6d6; cursor: not-allowed;}
         .timeout-alert { color: #B71C1C; font-weight: 700; margin-top: 20px;}
+
         .result-container { max-width: 590px; margin: 34px auto; background: #fffde7; border-radius: 18px; box-shadow: 0 3px 14px #FFECB3; padding: 32px 16px;}
         .score-bar, .time-bar { display: flex; align-items: center; gap: 18px; font-size: 1.14em; margin-bottom: 10px;}
         .status-badge.pass { background: #C8E6C9; color: #2e7d32; font-weight: 700; border-radius: 14px; padding: 4px 16px;}
@@ -242,6 +338,13 @@ export default function App() {
         .mistake-list { margin-top: 14px; padding-left: 0;}
         .mistake-item { background: #FFEBEE; border-radius: 7px; padding: 10px 8px; margin-bottom: 11px; box-shadow: 0 1px 6px #f8bbd0;}
         .no-mistakes { color: #2e7d32; font-weight: 600; font-size: 1.07em;}
+
+        .live-stats-panel { margin: 10px 0 14px 0; background: #f1f8e9; border: 1px solid #c5e1a5; border-radius: 10px; padding: 10px 12px; }
+        .live-stat-row { display: flex; justify-content: space-between; align-items: center; margin: 4px 0; }
+        .live-label { font-weight: 600; color: #33691e; }
+        .live-value { font-weight: 700; color: #2e7d32; }
+        .live-value.success { color: #1b5e20; }
+        .live-hint { margin-top: 6px; font-size: 0.9em; color: #5d6d5f; }
       `}</style>
     </div>
   );

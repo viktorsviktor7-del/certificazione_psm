@@ -30,7 +30,7 @@
   {
     "question": "Scrum does not allow additional meetings that are not defined in Scrum",
     "options": [
-      "Sprint is optional in Scrum",
+      "True",
       "False",
       "Requirements freeze during sprint",
       "Sprint Review is only for developers"
@@ -197,7 +197,7 @@
       "Requirements freeze during sprint",
       "True",
       "Transparency is not necessary",
-      "Anyone can change the Sprint Backlog"
+      "False"
     ],
     "answer": [
       1
@@ -1064,7 +1064,7 @@
     "id": 78
   },
   {
-    "question": "How does the scrum master serve the Organization? Select the three most appropriate answers",
+    "question": "How does the scrum master serve the Organization?",
     "options": [
       "Leading and coaching the organization in its Scrum adoption",
       "Working with other Scrum Masters to increase the effectiveness of the application pf scrum in the organization",
@@ -1171,7 +1171,7 @@
     "question": "During the Sprint, the Scrum Master's role is to do which two of the following",
     "options": [
       "Remove impediments",
-      "Facilitate inspection and adaptation opportunities as…"
+      "Facilitate inspection and adaptation opportunities as requested or needed throughout the Sprint"
     ],
     "answer": [
       0,
@@ -1517,8 +1517,7 @@
     ],
     "answer": [
       0,
-      1,
-      2
+      1
     ],
     "id": 113
   },
@@ -2562,7 +2561,6 @@
       "A potentially releasable Increment"
     ],
     "answer": [
-      1,
       3
     ],
     "id": 191

@@ -173,8 +173,7 @@
     ],
     "answer": [
       0,
-      2,
-      3
+      2
     ],
     "id": 13
   },
@@ -246,19 +245,19 @@
     ],
     "id": 18
   },
-  {
-    "question": "In accordance with Scrum theory, how should a group of 100 people…",
-    "options": [
-      "Sprint is optional in Scrum",
-      "Product Owner can overrule the team",
-      "Scrum doesn't allow communication",
-      "Understanding the product, the product vision and the rules…"
-    ],
-    "answer": [
-      3
-    ],
-    "id": 19
-  },
+{
+  "question": "According to Scrum theory, what should an organization do when more than 100 people are required to work on a product?",
+  "options": [
+    "Divide them into multiple Scrum Teams, all working on the same Product Backlog",
+    "Allow one Product Owner to overrule all teams",
+    "Have one large Scrum Team with over 100 people",
+    "Disallow all communication between teams"
+  ],
+  "answer": [
+    0
+  ],
+  "id": 19
+},
   {
     "question": "Scrum does not have a role called \"project manager.\"",
     "options": [
@@ -737,21 +736,21 @@
     ],
     "id": 54
   },
-  {
-    "question": "How frequently scrum users should inspect Scrum artifacts and progress toward a Sprint Goal?",
-    "options": [
-      "Product Backlog",
-      "Requirements freeze during sprint",
-      "Sprint Backlog",
-      "Increment"
-    ],
-    "answer": [
-      0,
-      2,
-      3
-    ],
-    "id": 55
-  },
+{
+  "question": "How frequently should Scrum users inspect Scrum artifacts and progress toward a Sprint Goal?",
+  "options": [
+    "Daily or as frequently as possible",         
+    "Only at the end of the Sprint",               
+    "Whenever required by the Scrum Master",      
+    "Every Scrum event (Sprint Planning, Daily Scrum, Sprint Review, Retrospective)"
+  ],
+  "answer": [
+    0,
+    3
+  ],
+  "id": 55
+}
+,
   {
     "question": "As the Sprint Planning meeting progreahan the Development Team's capacity. Which two (2) actions make the most sense for the Scrum Team To do?",
     "options": [
@@ -1324,7 +1323,7 @@
     "id": 98
   },
   {
-    "question": "A Scrum Master is keeping a list of open impediments, but it is growing and he/she has been able to resolve only a small portion of the impediments. Which three techniques would be most helpful in this situation? Choose 3 answers",
+    "question": "A Scrum Master is keeping a list of open impediments, but it is growing and he/she has been able to resolve only a small portion of the impediments. Which techniques would be most helpful in this situation? ",
     "options": [
       "Prioritizing the list and working on them in order.",
       "Consulting with the Development Team.",
@@ -1571,18 +1570,19 @@
     ],
     "id": 117
   },
-  {
-    "question": "Which three activities will a Product Owner likely engage in during a Sprint?",
-    "options": [
-      "Answer questions from the Development Team about items in the current Sprint.",
-      "Provide feedback.",
-      "Work with the stakeholders"
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
+{
+  "question": "Which three activities will a Product Owner likely engage in during a Sprint?",
+  "options": [
+    "Answer questions from the Development Team about Product Backlog items.",
+    "Provide feedback on deliverables.",
+    "Work with stakeholders to clarify requirements or priorities.",
+    "Directly manage and assign tasks to Developers."
+  ],
+  "answer":[
+    0,
+    1,
+    2
+  ],
     "id": 118
   },
   {
@@ -2014,8 +2014,7 @@
       "Ignore it until the next Sprint"
     ],
     "answer": [
-      0,
-      1
+      0
     ],
     "id": 151
   },
@@ -2321,7 +2320,6 @@
       "Transparency about completed work"
     ],
     "answer": [
-      2,
       3
     ],
     "id": 174

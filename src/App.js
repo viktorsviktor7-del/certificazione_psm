@@ -4,14 +4,20 @@ import quizData from './data/quiz.json'; // deve contenere: [{id, question, opti
 const MAX_TIME_SECONDS = 60 * 60; // 60 minuti
 
 function getRandomQuestions(data, n) {
+  // Rimuovi eventuali domande duplicate in base all'id
+  const uniqueDataMap = new Map();
+  data.forEach(item => {
+    if (!uniqueDataMap.has(item.id)) uniqueDataMap.set(item.id, item);
+  });
+  const uniqueData = Array.from(uniqueDataMap.values());
   // Fisher-Yates shuffle
-  const arr = [...data];
-  for (let i = arr.length - 1; i > 0; i--) {
+  for (let i = uniqueData.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [arr[i], arr[j]] = [arr[j], arr[i]];
+    [uniqueData[i], uniqueData[j]] = [uniqueData[j], uniqueData[i]];
   }
-  return arr.slice(0, n);
+  return uniqueData.slice(0, Math.min(n, uniqueData.length));
 }
+
 
 export default function App() {
   const [questions, setQuestions] = useState([]);

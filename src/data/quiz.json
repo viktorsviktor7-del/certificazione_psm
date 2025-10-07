@@ -141,7 +141,7 @@
       "By the Development Team deciding what…",
       "Anyone can change the Sprint Backlog",
       "By removing titles for Development…",
-      "By preventing stakeholders from…"
+      "By the Development Team deciding how to turn Product Backlog items into an Increment"
     ],
     "answer": [
       0,
@@ -262,10 +262,8 @@
   {
     "question": "Scrum does not have a role called \"project manager.\"",
     "options": [
-      "There are no artifacts in Scrum",
-      "Scrum doesn't allow communication",
-      "True",
-      "Anyone can change the Sprint Backlog"
+      "False",
+      "True"
     ],
     "answer": [
       2
@@ -376,9 +374,9 @@
       "Openness"
     ],
     "answer": [
+      1,
       2,
-      3,
-      1
+      3
     ],
     "id": 28
   },
@@ -400,7 +398,7 @@
   {
     "question": "It is a good practice to have from time to time a special technical Sprint, named Hardening Sprint, which consists only of task removing the technical debt without implementing any new funcionality. True or false?",
     "options": [
-      "Sprint Review is only for developers",
+      "True",
       "Daily Scrum lasts 1 hour",
       "Scrum doesn't allow communication",
       "False"
@@ -1509,7 +1507,7 @@
     "id": 112
   },
   {
-    "question": "What are the three most applicable characteristics of the Product Owner?",
+    "question": "What are the most applicable characteristics of the Product Owner?",
     "options": [
       "Lead Facilitator of Key Stakeholder Involvement",
       "product Value Maximizer",
@@ -1569,7 +1567,7 @@
       "Optional but recommended"
     ],
     "answer": [
-      0
+      3
     ],
     "id": 117
   },

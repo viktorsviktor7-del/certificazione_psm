@@ -1,10 +1,10 @@
 [
   {
-    "question": "Which three of the following are feedback loops in Scrum?",
+    "question": "Which of the following are feedback loops in Scrum?",
     "options": [
       "Sprint Retrospective",
       "Daily Scrum",
-      "Anyone can change the Sprint Backlog",
+      "Sprint Planning",
       "Sprint Review"
     ],
     "answer": [
@@ -17,9 +17,9 @@
   {
     "question": "What comprises Scrum?",
     "options": [
-      "There are no artifacts in Scrum",
-      "Scrum doesn't allow communication",
-      "Sprint Review is only for developers",
+      "Only the three roles: Product Owner, Scrum Master, Development Team",
+      "Events, roles, and values only",
+      "Artifacts and events only",
       "Scrum teams, events, rules, roles, artifacts"
     ],
     "answer": [
@@ -32,8 +32,8 @@
     "options": [
       "True",
       "False",
-      "Requirements freeze during sprint",
-      "Sprint Review is only for developers"
+      "Only with Product Owner approval",
+      "Only during Sprint Planning"
     ],
     "answer": [
       1
@@ -43,10 +43,10 @@
   {
     "question": "Scrum is founded on:",
     "options": [
-      "Daily Scrum lasts 1 hour",
+      "Defined process control",
       "Empiricism",
-      "Scrum doesn't allow communication",
-      "Sprint is optional in Scrum"
+      "Predictive planning",
+      "Waterfall methodology"
     ],
     "answer": [
       1
@@ -56,9 +56,9 @@
   {
     "question": "What is Scrum?",
     "options": [
-      "The Scrum Master decides everything",
-      "Transparency is not necessary",
-      "Sprint is optional in Scrum",
+      "A methodology that prescribes all development practices",
+      "A project management approach with fixed phases",
+      "A software development lifecycle model",
       "A framework within which people can address complex adaptive problems, while delivering valuable products"
     ],
     "answer": [
@@ -85,7 +85,7 @@
     "question": "What are the Scrum Artifacts?",
     "options": [
       "Product Backlog",
-      "Requirements freeze during sprint",
+      "Sprint Goal",
       "Sprint Backlog",
       "Increment"
     ],
@@ -99,10 +99,10 @@
   {
     "question": "Scrum recommends using only those Scrum components and rules which suit most for a particular project",
     "options": [
-      "Sprint is optional in Scrum",
-      "There are no artifacts in Scrum",
+      "True - teams should adapt Scrum to their needs",
+      "Only for small projects",
       "False",
-      "Requirements freeze during sprint"
+      "Only with management approval"
     ],
     "answer": [
       2
@@ -112,10 +112,10 @@
   {
     "question": "Upon what type of process control is Scrum based?",
     "options": [
-      "Scrum doesn't allow communication",
-      "The Scrum Master decides everything",
+      "Defined process control",
+      "Predictive control",
       "Empirical",
-      "Daily Scrum lasts 1 hour"
+      "Sequential control"
     ],
     "answer": [
       2
@@ -125,9 +125,9 @@
   {
     "question": "Which statement best describes Scrum?",
     "options": [
-      "Sprint is optional in Scrum",
-      "The Scrum Master decides everything",
-      "Scrum doesn't allow communication",
+      "A methodology with prescribed practices",
+      "A project management approach with defined phases",
+      "A software development process with fixed requirements",
       "A framework within which complex products in complex environments are developed."
     ],
     "answer": [
@@ -138,9 +138,9 @@
   {
     "question": "What are three ways Scrum promotes self-organization",
     "options": [
-      "By the Development Team deciding what…",
-      "Anyone can change the Sprint Backlog",
-      "By removing titles for Development…",
+      "By the Development Team deciding what work to do and how to do it",
+      "By having the Scrum Master assign tasks to team members",
+      "By removing titles for Development Team members",
       "By the Development Team deciding how to turn Product Backlog items into an Increment"
     ],
     "answer": [
@@ -151,12 +151,12 @@
     "id": 11
   },
   {
-    "question": "Scrum is a methodology that tells in detail how to build a software..",
+    "question": "Scrum is a methodology that tells in detail how to build software",
     "options": [
-      "Daily Scrum lasts 1 hour",
-      "Scrum doesn't allow communication",
+      "True - it provides detailed technical guidance",
+      "Only for agile projects",
       "False",
-      "Anyone can change the Sprint Backlog"
+      "True - but only for web development"
     ],
     "answer": [
       2
@@ -167,23 +167,24 @@
     "question": "Which three of the following are true about Scrum?",
     "options": [
       "Scrum is based on empirical process control theory",
-      "Daily Scrum lasts 1 hour",
-      "Each component of Scrum serves a specific pourpose…",
-      "Scrum is a framework for developing"
+      "The Daily Scrum lasts 15 minutes or less",
+      "Each component of Scrum serves a specific purpose and is essential to Scrum's success",
+      "Scrum can only be used for software development"
     ],
     "answer": [
       0,
+      1,
       2
     ],
     "id": 13
   },
   {
-    "question": "Does Scrum have a role called \"Project Manager\" ?",
+    "question": "Does Scrum have a role called \"Project Manager\"?",
     "options": [
-      "Transparency is not necessary",
-      "Scrum doesn't allow communication",
+      "Yes - it's an optional fourth role",
+      "Only for large projects",
       "No",
-      "Sprint is optional in Scrum"
+      "Yes - the Scrum Master is the Project Manager"
     ],
     "answer": [
       2
@@ -193,10 +194,10 @@
   {
     "question": "Scrum does not describe agile processes and techniques.",
     "options": [
-      "Requirements freeze during sprint",
+      "False - Scrum includes detailed technical practices",
       "True",
-      "Transparency is not necessary",
-      "False"
+      "Only for complex projects",
+      "False - Scrum prescribes all development practices"
     ],
     "answer": [
       1
@@ -218,46 +219,46 @@
     "id": 16
   },
   {
-    "question": "Which Scrum values are exhibited by not building Product Backlog…",
+    "question": "Which Scrum values are exhibited by not building Product Backlog items that are unlikely to be done?",
     "options": [
-      "The Scrum Master decides everything",
+      "Openness",
       "Focus",
       "Courage",
       "Respect"
     ],
     "answer": [
+      1,
       2,
-      3,
-      1
+      3
     ],
     "id": 17
   },
   {
     "question": "Which Scrum value is affected by a lack of trust in the Scrum Team?",
     "options": [
-      "Product Owner can overrule the team",
-      "Transparency is not necessary",
+      "Focus - team can't concentrate on goals",
+      "Courage - fear prevents honest communication",
       "All of the above",
-      "Anyone can change the Sprint Backlog"
+      "Commitment - team won't commit to goals"
     ],
     "answer": [
       2
     ],
     "id": 18
   },
-{
-  "question": "According to Scrum theory, what should an organization do when more than 100 people are required to work on a product?",
-  "options": [
-    "Divide them into multiple Scrum Teams, all working on the same Product Backlog",
-    "Allow one Product Owner to overrule all teams",
-    "Have one large Scrum Team with over 100 people",
-    "Disallow all communication between teams"
-  ],
-  "answer": [
-    0
-  ],
-  "id": 19
-},
+  {
+    "question": "According to Scrum theory, what should an organization do when more than 100 people are required to work on a product?",
+    "options": [
+      "Create one large Scrum Team with over 100 people",
+      "Allow one Product Owner to directly manage all teams",
+      "Prohibit communication between teams to avoid confusion",
+      "Divide them into multiple Scrum Teams, all working on the same Product Backlog"
+    ],
+    "answer": [
+      3
+    ],
+    "id": 19
+  },
   {
     "question": "Scrum does not have a role called \"project manager.\"",
     "options": [
@@ -287,9 +288,9 @@
   {
     "question": "What is the role of Management in Scrum?",
     "options": [
-      "Anyone can change the Sprint Backlog",
-      "Daily Scrum lasts 1 hour",
-      "The Scrum Master decides everything",
+      "Directly assign tasks to Development Team members",
+      "Make all key product decisions instead of Product Owner",
+      "Control the Sprint Backlog and Sprint progress",
       "Support the Product Owner with insights and information into high value product and system capabilities. Support the Scrum Master to cause organizational change that fosters empiricism, self-organization, bottom-up intelligence, and intelligent release of software."
     ],
     "answer": [
@@ -300,8 +301,8 @@
   {
     "question": "You have just been hired by a company new to Scrum. Your management has assigned you to be the Scrum Master of six new Scrum Teams. These teams will build one product. Select two conditions you should strive for in this scenario. Choose 2 answers",
     "options": [
-      "There are no artifacts in Scrum",
-      "Daily Scrum lasts 1 hour",
+      "Scrum has only one artifact: the Product Backlog",
+      "Daily Scrum should last 30 minutes",
       "The product has one Product Backlog",
       "There should be only one Product Owner"
     ],
@@ -314,10 +315,10 @@
   {
     "question": "If an inspector determines that one or more aspects of a process deviate outside acceptable limits when an adjustment must be made?",
     "options": [
-      "Sprint is optional in Scrum",
-      "The Scrum Master decides everything",
+      "Sprint length can be changed mid-Sprint if needed",
+      "The Scrum Master should make all technical decisions",
       "As soon as possible to minimize further deviation",
-      "Product Owner can overrule the team"
+      "Product Owner has final authority over all Sprint decisions"
     ],
     "answer": [
       2
@@ -327,10 +328,10 @@
   {
     "question": "What does Cone of Uncertainty show?",
     "options": [
-      "Anyone can change the Sprint Backlog",
-      "Product Owner can overrule the team",
+      "How project budget changes over time",
+      "How team velocity increases over time",
       "How much is known about the Product over time",
-      "Requirements freeze during sprint"
+      "How Sprint length should vary over time"
     ],
     "answer": [
       2
@@ -340,8 +341,8 @@
   {
     "question": "What are two ways that architecture and infrastructure are handled in Scrum? Choose 2 answers",
     "options": [
-      "There are no artifacts in Scrum",
-      "Transparency is not necessary",
+      "Scrum has only one artifact: the Product Backlog",
+      "Transparency should be limited to protect team morale",
       "They are implemented along with functional development of the product.",
       "They are added to the Product Backlog and addressed in early Sprints, while always requiring at least some business functionality, no matter how small."
     ],
@@ -354,10 +355,10 @@
   {
     "question": "What does Team Velocity measure?",
     "options": [
-      "Sprint Review is only for developers",
-      "Product Owner can overrule the team",
-      "The Scrum Master decides everything",
-      "How many units of software are completed in an interation"
+      "How fast individual team members work",
+      "The quality of code produced in each Sprint",
+      "The time spent in meetings vs development work",
+      "How many units of software are completed in an iteration"
     ],
     "answer": [
       3
@@ -367,7 +368,7 @@
   {
     "question": "Which of the below are Scrum Values?",
     "options": [
-      "Daily Scrum lasts 1 hour",
+      "Daily Scrum should last 30 minutes",
       "Focus",
       "Courage",
       "Openness"
@@ -382,7 +383,7 @@
   {
     "question": "Scrum is:",
     "options": [
-      "Transparency is not necessary",
+      "Transparency should be limited to protect team morale",
       "lightweight",
       "simple to understand",
       "difficult to master"
@@ -395,11 +396,11 @@
     "id": 29
   },
   {
-    "question": "It is a good practice to have from time to time a special technical Sprint, named Hardening Sprint, which consists only of task removing the technical debt without implementing any new funcionality. True or false?",
+    "question": "It is a good practice to have from time to time a special technical Sprint, named Hardening Sprint, which consists only of tasks removing technical debt without implementing any new functionality. True or false?",
     "options": [
-      "True",
-      "Daily Scrum lasts 1 hour",
-      "Scrum doesn't allow communication",
+      "True - technical debt should be addressed separately",
+      "True - but only for complex products",
+      "True - it improves code quality",
       "False"
     ],
     "answer": [
@@ -426,8 +427,8 @@
   {
     "question": "Who are the founders of the Scrum?",
     "options": [
-      "Transparency is not necessary",
-      "Scrum doesn't allow communication",
+      "Martin Fowler and Robert C. Martin",
+      "Kent Beck and Ward Cunningham",
       "Ken Schwaber",
       "Jeff Sutherland"
     ],
@@ -440,9 +441,9 @@
   {
     "question": "What is the essence of scrum?",
     "options": [
-      "Transparency is not necessary",
-      "Product Owner can overrule the team",
-      "Anyone can change the Sprint Backlog",
+      "Following all prescribed ceremonies and artifacts",
+      "Having clearly defined roles and responsibilities",
+      "Maintaining detailed project documentation",
       "A small team of people that is highly flexible and adaptive"
     ],
     "answer": [
@@ -468,7 +469,7 @@
     "options": [
       "Development of almost everything we use in our daily lives as individuals and societies",
       "Research and identifying of viable markets, technologies, and product capabilities",
-      "Development od software and hardware",
+      "Development of software and hardware",
       "Development of products and enhancements",
       "Development and sustaining of cloud and other operation environment"
     ],
@@ -498,9 +499,9 @@
   {
     "question": "Scrum recommends to use only Scrum components and rules which suit most for a particular project. True or False?",
     "options": [
-      "Requirements freeze during sprint",
+      "Requirements should never change during a Sprint",
       "False",
-      "The Scrum Master decides everything",
+      "The Scrum Master should make all technical decisions",
       "True"
     ],
     "answer": [
@@ -509,12 +510,12 @@
     "id": 37
   },
   {
-    "question": "A Scrum Team has been working on a product for nine Sprints…",
+    "question": "The Scrum Team has been working on a product for nine Sprints. A new Product Owner comes in, understanding he is accountable for the Product Backlog. However, he is unsure about his responsibilities. Which two activities are part of the Product Owner role according to Scrum? Choose 2 answers",
     "options": [
-      "Transparency is not necessary",
-      "Daily Scrum lasts 1 hour",
+      "Avoiding contact with stakeholders",
+      "Delivering features without regard to value or priority",
       "Interacting with stakeholders",
-      "Providing the Development Team with detailed…"
+      "Ensuring that the most valuable functionality is produced first at all times"
     ],
     "answer": [
       2,
@@ -525,9 +526,9 @@
   {
     "question": "For the purpose of transparency, when does Scrum say a new increment of working software must be available?",
     "options": [
-      "Product Owner can overrule the team",
-      "Transparency is not necessary",
-      "Sprint Review is only for developers",
+      "Only when stakeholders request it",
+      "When the Product Owner decides to release",
+      "Only at major milestones",
       "At the end of every Sprint"
     ],
     "answer": [
@@ -538,8 +539,8 @@
   {
     "question": "What are two good ways for a Scrum Team to ensure security concerns are satisfied? Choose 2 answers",
     "options": [
-      "There are no artifacts in Scrum",
-      "Product Owner can overrule the team",
+      "Scrum has only one artifact: the Product Backlog",
+      "Product Owner has final authority over all Sprint decisions",
       "Have the Scrum Team create Product Backlog items for each concern.",
       "Add security concern to the definition of Done"
     ],
@@ -552,9 +553,9 @@
   {
     "question": "Five new Scrum Team have been created to build one product…",
     "options": [
-      "Daily Scrum lasts 1 hour",
-      "Scrum doesn't allow communication",
-      "Sprint is optional in Scrum",
+      "Daily Scrum should last 30 minutes",
+      "Communication should be minimized to avoid confusion",
+      "Sprint length can be changed mid-Sprint if needed",
       "Teach them that it is their responsability to work…"
     ],
     "answer": [
@@ -565,9 +566,9 @@
   {
     "question": "Which outcome is expected as Scrum Teams mature?",
     "options": [
-      "There are no artifacts in Scrum",
-      "Daily Scrum lasts 1 hour",
-      "Anyone can change the Sprint Backlog",
+      "They will require less frequent Sprint Reviews and Retrospectives",
+      "The Scrum Master will take more control over Sprint Planning decisions",
+      "They will rely more on documentation rather than working software",
       "They will improve their definition of \"Done\" to include more stringent criteria."
     ],
     "answer": [
@@ -578,9 +579,9 @@
   {
     "question": "Multiple Scrum Teams working on the same project must have the same Sprint start date",
     "options": [
-      "There are no artifacts in Scrum",
-      "Product Owner can overrule the team",
-      "Sprint Review is only for developers",
+      "Scrum has only one artifact: the Product Backlog",
+      "Product Owner has final authority over all Sprint decisions",
+      "Sprint Review is mandatory for all team members",
       "True"
     ],
     "answer": [
@@ -591,9 +592,9 @@
   {
     "question": "Every Scrum Team must have a Product Owner and Scrum Master",
     "options": [
-      "Anyone can change the Sprint Backlog",
-      "There are no artifacts in Scrum",
-      "Sprint is optional in Scrum",
+      "Only the Scrum Master can modify the Sprint Backlog",
+      "Scrum has only one artifact: the Product Backlog",
+      "Sprint length can be changed mid-Sprint if needed",
       "True. Each must be 100% dedicated to the Scrum Team"
     ],
     "answer": [
@@ -604,9 +605,9 @@
   {
     "question": "When many Scrum Teams are working on the same product, should…",
     "options": [
-      "Scrum doesn't allow communication",
-      "Sprint Review is only for developers",
-      "Transparency is not necessary",
+      "Communication should be minimized to avoid confusion",
+      "Sprint Review is mandatory for all team members",
+      "Transparency should be limited to protect team morale",
       "Yes, but only for Scrum Teams whose work has dependencies"
     ],
     "answer": [
@@ -617,9 +618,9 @@
   {
     "question": "A Scrum Team is only allowed to meet with stakeholders during…",
     "options": [
-      "Product Owner can overrule the team",
-      "Requirements freeze during sprint",
-      "Anyone can change the Sprint Backlog",
+      "Product Owner has final authority over all Sprint decisions",
+      "Requirements should never change during a Sprint",
+      "Only the Scrum Master can modify the Sprint Backlog",
       "False"
     ],
     "answer": [
@@ -630,9 +631,9 @@
   {
     "question": "A properly functioning Scrum Team will have at least on Release Sprint…",
     "options": [
-      "The Scrum Master decides everything",
-      "Anyone can change the Sprint Backlog",
-      "Requirements freeze during sprint",
+      "The Scrum Master should make all technical decisions",
+      "Only the Scrum Master can modify the Sprint Backlog",
+      "Requirements should never change during a Sprint",
       "False"
     ],
     "answer": [
@@ -643,9 +644,9 @@
   {
     "question": "If two Scrum Teams are added to a project that previously had only one Scrum Team, what will be the immediate impact on the first Scrum Team's productivity?",
     "options": [
-      "Requirements freeze during sprint",
-      "The Scrum Master decides everything",
-      "There are no artifacts in Scrum",
+      "Requirements should never change during a Sprint",
+      "The Scrum Master should make all technical decisions",
+      "Scrum has only one artifact: the Product Backlog",
       "Its productivity is likely to stay the same"
     ],
     "answer": [
@@ -656,9 +657,9 @@
   {
     "question": "If two Scrum Teams are added to the development of a product that…",
     "options": [
-      "Product Owner can overrule the team",
-      "Scrum doesn't allow communication",
-      "There are no artifacts in Scrum",
+      "Product Owner has final authority over all Sprint decisions",
+      "Communication should be minimized to avoid confusion",
+      "Scrum has only one artifact: the Product Backlog",
       "Its productivity is likely to decrease"
     ],
     "answer": [
@@ -669,7 +670,7 @@
   {
     "question": "Which of the below are roles on a Scrum Team?",
     "options": [
-      "Daily Scrum lasts 1 hour",
+      "Daily Scrum should last 30 minutes",
       "Scrum Master",
       "Product Owner",
       "Development Team"
@@ -684,33 +685,29 @@
   {
     "question": "When multiple teams work together on the same product, each team should maintain a separate Product Backlog",
     "options": [
-      "Product Owner can overrule the team",
-      "Anyone can change the Sprint Backlog",
-      "The Scrum Master decides everything",
+      "True",
       "False"
     ],
     "answer": [
-      3
+      1
     ],
     "id": 51
   },
   {
     "question": "All the Scrum Teams working on the same product should have the same sprint length",
     "options": [
-      "Requirements freeze during sprint",
-      "Anyone can change the Sprint Backlog",
-      "Daily Scrum lasts 1 hour",
+      "True",
       "False"
     ],
     "answer": [
-      3
+      1
     ],
     "id": 52
   },
   {
     "question": "What are the three main qualities the team model in Scrum is designed to optimized?",
     "options": [
-      "There are no artifacts in Scrum",
+      "Scrum has only one artifact: the Product Backlog",
       "Flexibility",
       "Creativity",
       "Productivity"
@@ -725,8 +722,8 @@
   {
     "question": "What are the two essential features a Scrum Team should possess?",
     "options": [
-      "The Scrum Master decides everything",
-      "Sprint is optional in Scrum",
+      "The Scrum Master should make all technical decisions",
+      "Sprint length can be changed mid-Sprint if needed",
       "It should have all competencies needed to accomplish the work without depending on others not part of the team",
       "It should choose how best to accomplish their work, rather than being directed by others outside the team"
     ],
@@ -736,26 +733,26 @@
     ],
     "id": 54
   },
-{
-  "question": "How frequently should Scrum users inspect Scrum artifacts and progress toward a Sprint Goal?",
-  "options": [
-    "Daily or as frequently as possible",         
-    "Only at the end of the Sprint",               
-    "Whenever required by the Scrum Master",      
-    "Every Scrum event (Sprint Planning, Daily Scrum, Sprint Review, Retrospective)"
-  ],
-  "answer": [
-    0,
-    3
-  ],
-  "id": 55
-}
-,
+  {
+    "question": "How frequently scrum users should inspect Scrum artifacts and progress toward a Sprint Goal?",
+    "options": [
+      "Product Backlog",
+      "Requirements should never change during a Sprint",
+      "Sprint Backlog",
+      "Increment"
+    ],
+    "answer": [
+      0,
+      2,
+      3
+    ],
+    "id": 55
+  },
   {
     "question": "As the Sprint Planning meeting progreahan the Development Team's capacity. Which two (2) actions make the most sense for the Scrum Team To do?",
     "options": [
-      "Sprint is optional in Scrum",
-      "Scrum doesn't allow communication",
+      "Sprint length can be changed mid-Sprint if needed",
+      "Communication should be minimized to avoid confusion",
       "Alert the Product Owner, start the Sprint and monitor burndown rates.",
       "Collaborate with the Product Owner and potentially remove or change items."
     ],
@@ -768,9 +765,9 @@
   {
     "question": "Cross-functional teams are optimized to work on one technical layer of the system only (eg. GUI, database, middle tier, interfaces).",
     "options": [
-      "There are no artifacts in Scrum",
-      "Sprint Review is only for developers",
-      "Transparency is not necessary",
+      "Scrum has only one artifact: the Product Backlog",
+      "Sprint Review is mandatory for all team members",
+      "Transparency should be limited to protect team morale",
       "False"
     ],
     "answer": [
@@ -781,8 +778,8 @@
   {
     "question": "The Scrum Team has been working on a product for nine Sprints. A new Product Owner comes in, understanding he is accountable for the Product Backlog. However, he is unsure about his responsibilities. Which two activities are part of the Product Owner role according to Scrum? Choose 2 answers",
     "options": [
-      "Sprint Review is only for developers",
-      "Daily Scrum lasts 1 hour",
+      "Sprint Review is mandatory for all team members",
+      "Daily Scrum should last 30 minutes",
       "Interacting with stakeholders.",
       "Ensuring that the most valuable functionality is produced first at all times."
     ],
@@ -795,9 +792,9 @@
   {
     "question": "Which statement best describes a cross-functional team?",
     "options": [
-      "Transparency is not necessary",
-      "Anyone can change the Sprint Backlog",
-      "Sprint Review is only for developers",
+      "Team members each specialize in one area only",
+      "Team has representatives from different departments",
+      "Team works on multiple projects simultaneously",
       "The team has all competencies needed to accomplish the work"
     ],
     "answer": [
@@ -808,9 +805,9 @@
   {
     "question": "For which of the below the scrum master is responsible?",
     "options": [
-      "There are no artifacts in Scrum",
-      "The Scrum Master decides everything",
-      "Scrum doesn't allow communication",
+      "Managing the Development Team's daily tasks",
+      "Making technical decisions for the team",
+      "Controlling the Sprint Backlog",
       "ensuring scrum is understood and enacted"
     ],
     "answer": [
@@ -821,9 +818,9 @@
   {
     "question": "Scrum recommends to have at least a business analyst inside the development team working side by side the key stakeholders",
     "options": [
-      "Sprint is optional in Scrum",
-      "Product Owner can overrule the team",
-      "Sprint Review is only for developers",
+      "Sprint length can be changed mid-Sprint if needed",
+      "Product Owner has final authority over all Sprint decisions",
+      "Sprint Review is mandatory for all team members",
       "False"
     ],
     "answer": [
@@ -834,8 +831,8 @@
   {
     "question": "Which of the following are the characteristics of a product owner?",
     "options": [
-      "Scrum doesn't allow communication",
-      "Anyone can change the Sprint Backlog",
+      "Communication should be minimized to avoid confusion",
+      "Only the Scrum Master can modify the Sprint Backlog",
       "cleary expressing product backlog items",
       "ensuring that the product backlog is visible, trasparent, and clear to all, and shows what scrum team will work on netx"
     ],
@@ -848,8 +845,8 @@
   {
     "question": "Which of the following are the characteristics of a development team?",
     "options": [
-      "There are no artifacts in Scrum",
-      "Anyone can change the Sprint Backlog",
+      "Scrum has only one artifact: the Product Backlog",
+      "Only the Scrum Master can modify the Sprint Backlog",
       "scrum recognizes no title for devealopment tem members",
       "scrum recognizes no sub-teams in the development team"
     ],
@@ -862,7 +859,7 @@
   {
     "question": "The Scrum Teams consists of",
     "options": [
-      "Transparency is not necessary",
+      "Transparency should be limited to protect team morale",
       "the development team",
       "The Product Owner",
       "the scrum master"
@@ -877,9 +874,9 @@
   {
     "question": "How many people can be included in a development team at maximum according to the scrum guide?",
     "options": [
-      "The Scrum Master decides everything",
-      "Scrum doesn't allow communication",
-      "Daily Scrum lasts 1 hour",
+      "The Scrum Master should make all technical decisions",
+      "Communication should be minimized to avoid confusion",
+      "Daily Scrum should last 30 minutes",
       "9"
     ],
     "answer": [
@@ -903,9 +900,9 @@
   {
     "question": "Which one of the below is managed by the Product owner?",
     "options": [
-      "Daily Scrum lasts 1 hour",
-      "The Scrum Master decides everything",
-      "Sprint Review is only for developers",
+      "Daily Scrum should last 30 minutes",
+      "The Scrum Master should make all technical decisions",
+      "Sprint Review is mandatory for all team members",
       "The product backlog"
     ],
     "answer": [
@@ -916,8 +913,8 @@
   {
     "question": "Suppose a development team does not have any testing specialists in the team. What they shoud do?",
     "options": [
-      "Requirements freeze during sprint",
-      "Sprint is optional in Scrum",
+      "Requirements should never change during a Sprint",
+      "Sprint length can be changed mid-Sprint if needed",
       "raise this as an impediment which may require the assistance of the scrum master to resolve",
       "quality is the responsability of the development team and they should undertake testing themselves to the best of their abilities"
     ],
@@ -930,9 +927,9 @@
   {
     "question": "Helping employees and stakeholders understand and enact Scrum and empirical product development is ont of the way the Product owner serve the organization",
     "options": [
-      "Transparency is not necessary",
-      "There are no artifacts in Scrum",
-      "Requirements freeze during sprint",
+      "Transparency should be limited to protect team morale",
+      "Scrum has only one artifact: the Product Backlog",
+      "Requirements should never change during a Sprint",
       "False"
     ],
     "answer": [
@@ -943,9 +940,9 @@
   {
     "question": "Which of the below roles are included in a Development Team according the Scrum Guide?",
     "options": [
-      "The Scrum Master decides everything",
-      "Requirements freeze during sprint",
-      "Product Owner can overrule the team",
+      "The Scrum Master should make all technical decisions",
+      "Requirements should never change during a Sprint",
+      "Product Owner has final authority over all Sprint decisions",
       "No titles for the Development Team members: development team is a role and a development team includes development team members"
     ],
     "answer": [
@@ -956,9 +953,9 @@
   {
     "question": "It is a good practice to have at least two Product owners on big projects",
     "options": [
-      "Transparency is not necessary",
-      "Product Owner can overrule the team",
-      "The Scrum Master decides everything",
+      "Transparency should be limited to protect team morale",
+      "Product Owner has final authority over all Sprint decisions",
+      "The Scrum Master should make all technical decisions",
       "false"
     ],
     "answer": [
@@ -969,9 +966,9 @@
   {
     "question": "The Scrum Master observes the Product Owner struggling with ordering the Product Backlog. What is an appropriate action for the Scrum Master to take?",
     "options": [
-      "Requirements freeze during sprint",
-      "There are no artifacts in Scrum",
-      "Anyone can change the Sprint Backlog",
+      "Requirements should never change during a Sprint",
+      "Scrum has only one artifact: the Product Backlog",
+      "Only the Scrum Master can modify the Sprint Backlog",
       "Offer the Product Owner help in understanding that the goal of ordering the Product Backlog is to maximize value."
     ],
     "answer": [
@@ -997,9 +994,9 @@
   {
     "question": "The Scrum Master is focused primarily on the Scrum Team and usually does not care about those outside the Scrum Team",
     "options": [
-      "Anyone can change the Sprint Backlog",
-      "Scrum doesn't allow communication",
-      "Daily Scrum lasts 1 hour",
+      "Only the Scrum Master can modify the Sprint Backlog",
+      "Communication should be minimized to avoid confusion",
+      "Daily Scrum should last 30 minutes",
       "False"
     ],
     "answer": [
@@ -1010,8 +1007,8 @@
   {
     "question": "Which two of the following are true about the Scrum Master role?",
     "options": [
-      "Sprint Review is only for developers",
-      "Product Owner can overrule the team",
+      "Sprint Review is mandatory for all team members",
+      "Product Owner has final authority over all Sprint decisions",
       "The Scrum Master teaches the Development Team to keep the Scrum meetings to their timebox.",
       "The Scrum Master helps those outside the team interact with the Scrum Team."
     ],
@@ -1127,7 +1124,7 @@
     "id": 83
   },
   {
-    "question": "A Scrum Master is introducing Scrum to a new Development…\nA Scrum Master is introducing Scrum to a new Development Team. The Development Team has decided that a retrospective is unnecessary. What action should the Scrum Master\ntake?",
+    "question": "A Scrum Master is introducing Scrum to a new Development Team. The Development Team has decided that a retrospective is unnecessary. What action should the Scrum Master\ntake?",
     "options": [
       "Agree with the team and skip future retrospectives.",
       "Report the team to management for non-compliance.",
@@ -1140,7 +1137,7 @@
     "id": 84
   },
   {
-    "question": "What are the two primary ways a Scrum Master keeps a Development Team working at its highest level or productivity?",
+    "question": "What are the primary ways a Scrum Master keeps a Development Team working at its highest level or productivity?",
     "options": [
       "By removing impediments that hinder the Development Team",
       "By facilitating Development Team decisions"
@@ -1323,7 +1320,7 @@
     "id": 98
   },
   {
-    "question": "A Scrum Master is keeping a list of open impediments, but it is growing and he/she has been able to resolve only a small portion of the impediments. Which techniques would be most helpful in this situation? ",
+    "question": "A Scrum Master is keeping a list of open impediments, but it is growing and he/she has been able to resolve only a small portion of the impediments. Which three techniques would be most helpful in this situation? Choose 3 answers",
     "options": [
       "Prioritizing the list and working on them in order.",
       "Consulting with the Development Team.",
@@ -1570,19 +1567,18 @@
     ],
     "id": 117
   },
-{
-  "question": "Which three activities will a Product Owner likely engage in during a Sprint?",
-  "options": [
-    "Answer questions from the Development Team about Product Backlog items.",
-    "Provide feedback on deliverables.",
-    "Work with stakeholders to clarify requirements or priorities.",
-    "Directly manage and assign tasks to Developers."
-  ],
-  "answer":[
-    0,
-    1,
-    2
-  ],
+  {
+    "question": "Which three activities will a Product Owner likely engage in during a Sprint?",
+    "options": [
+      "Answer questions from the Development Team about items in the current Sprint.",
+      "Provide feedback.",
+      "Work with the stakeholders"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
     "id": 118
   },
   {
@@ -1798,7 +1794,7 @@
   {
     "question": "When do Development Team members take ownership of a Sprint Backlog",
     "options": [
-      "Never. All Sprint Backlog Items are \"owned\" by the entire Development Team, even though each one may be done by an individual development team member.",
+      "Development Team members collectively take ownership of the Sprint Backlog during the Sprint Planning meeting,\n which occurs at the beginning of each sprint, and this ownership is maintained throughout the sprint as a team effort to achieve the Sprint Goal",
       "When they pull the item",
       "At the end of the Sprint",
       "If no one else claims it"
@@ -1835,11 +1831,12 @@
     "id": 137
   },
   {
-    "question": "Which three questions are answered by all Development Team…\nWhich three questions might be answered by Development Team members at the Daily Scrum?",
+    "question": "Which questions might be answered by Development Team members at the Daily Scrum?",
     "options": [
       "What impediments are in my way or in the way of the team",
       "What work did I do yesterday to help the…",
-      "What work am I going to do today to help the…"
+      "What work am I going to do today to help the…",
+      "What feedback did I receive from the Product Owner yesterday?"
     ],
     "answer": [
       0,
@@ -1942,7 +1939,7 @@
   {
     "question": "What happens if the Development Team cannot complete…",
     "options": [
-      "The sprint lenght holds and the Development Team…",
+      "The Sprint length holds and the Development Team carries over incomplete work to the next Sprint",
       "The Sprint is cancelled",
       "The team is penalized",
       "Extra time is added"
@@ -1953,7 +1950,7 @@
     "id": 146
   },
   {
-    "question": "A Development Team selects a set of Product Backlog items for a Sprint Backlog with the intent to get the selected items \"Done\" by the end of the Sprint. Which three phrases best describe the purpose of a definition of \"Done\"? Choose 3 answers",
+    "question": "A Development Team selects a set of Product Backlog items for a Sprint Backlog with the intent to get the selected items \"Done\" by the end of the Sprint. Which phrases best describe the purpose of a definition of \"Done\"? ",
     "options": [
       "It defines what it takes for an increment to be ready for release.",
       "It guides the Development Team in creating a forecast at the Sprint Planning.",
@@ -2014,18 +2011,18 @@
       "Ignore it until the next Sprint"
     ],
     "answer": [
-      0
+      0,
+      1
     ],
     "id": 151
   },
   {
-    "question": "A Development Team is required to deliver a done increment by the end…",
+    "question": "A Development Team is required to deliver a done increment by the end of the Sprint.",
     "options": [
       "All work to create software that is ready to be released…",
       "No work left from the definition of \"Done\" "
     ],
     "answer": [
-      0,
       1
     ],
     "id": 152
@@ -2087,7 +2084,7 @@
     "options": [
       "Anyone in the organization",
       "Only the Product Owner",
-      "Daily Scrum lasts 1 hour",
+      "Daily Scrum should last 30 minutes",
       "All members of the Scrum Team"
     ],
     "answer": [
@@ -2276,7 +2273,7 @@
     "options": [
       "Anyone in the organization",
       "Only the Product Owner",
-      "Daily Scrum lasts 1 hour",
+      "Daily Scrum should last 30 minutes",
       "All members of the Scrum Team"
     ],
     "answer": [
@@ -2320,6 +2317,7 @@
       "Transparency about completed work"
     ],
     "answer": [
+      2,
       3
     ],
     "id": 174
@@ -2357,7 +2355,7 @@
     "options": [
       "Anyone in the organization",
       "Only the Product Owner",
-      "Daily Scrum lasts 1 hour",
+      "Daily Scrum should last 30 minutes",
       "All members of the Scrum Team"
     ],
     "answer": [
@@ -2605,7 +2603,7 @@
     "options": [
       "Anyone in the organization",
       "Only the Product Owner",
-      "Daily Scrum lasts 1 hour",
+      "Daily Scrum should last 30 minutes",
       "All members of the Scrum Team"
     ],
     "answer": [
@@ -2614,4 +2612,3 @@
     "id": 195
   }
 ]
-

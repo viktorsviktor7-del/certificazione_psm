@@ -482,20 +482,18 @@
     ],
     "id": 35
   },
-  {
-    "question": "Is the Definition of Done a mandatory part of Scrum?",
-    "options": [
-      "Permission to release to customers",
-      "A checklist of necessary development tasks",
-      "Shared understanding of what it means for work to be complete",
-      "Transparency about completed work"
-    ],
-    "answer": [
-      2,
-      3
-    ],
-    "id": 36
-  },
+{
+  "question": "Is the Definition of Done a mandatory part of Scrum?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "answer": [
+    0
+  ],
+  "id": 36
+}
+,
   {
     "question": "Scrum recommends to use only Scrum components and rules which suit most for a particular project. True or False?",
     "options": [
@@ -550,19 +548,20 @@
     ],
     "id": 40
   },
-  {
-    "question": "Five new Scrum Team have been created to build one product…",
-    "options": [
-      "Daily Scrum should last 30 minutes",
-      "Communication should be minimized to avoid confusion",
-      "Sprint length can be changed mid-Sprint if needed",
-      "Teach them that it is their responsability to work…"
-    ],
-    "answer": [
-      3
-    ],
-    "id": 41
-  },
+{
+  "question": "Five new Scrum Teams have been created to build one product. What is the most important thing to teach the teams?",
+  "options": [
+    "Daily Scrum should last 30 minutes",
+    "Communication should be minimized to avoid confusion",
+    "Sprint length can be changed mid-Sprint if needed",
+    "Teach them that it is their responsibility to work together, increase transparency, and coordinate to deliver one product"
+  ],
+  "answer": [
+    3
+  ],
+  "id": 41
+}
+,
   {
     "question": "Which outcome is expected as Scrum Teams mature?",
     "options": [
@@ -582,7 +581,7 @@
       "Scrum has only one artifact: the Product Backlog",
       "Product Owner has final authority over all Sprint decisions",
       "Sprint Review is mandatory for all team members",
-      "True"
+      "Multiple Scrum Teams working on the same project do not have to have the same Sprint start date, but it is often recommended to synchronize Sprint start and end dates to enhance coordination and integration of their work, especially when they are working together on a single Product Backlog."
     ],
     "answer": [
       3
@@ -602,13 +601,13 @@
     ],
     "id": 44
   },
-  {
-    "question": "When many Scrum Teams are working on the same product, should…",
+{
+    "question": "When many Scrum Teams are working on the same product, should all of their increments be integrated every Sprint?",
     "options": [
       "Communication should be minimized to avoid confusion",
       "Sprint Review is mandatory for all team members",
       "Transparency should be limited to protect team morale",
-      "Yes, but only for Scrum Teams whose work has dependencies"
+      "They should increase communication and transparency to ensure alignment, and maintain a single Product Backlog for the product"
     ],
     "answer": [
       3
@@ -743,8 +742,7 @@
     ],
     "answer": [
       0,
-      2,
-      3
+      2
     ],
     "id": 55
   },
@@ -871,19 +869,19 @@
     ],
     "id": 64
   },
-  {
-    "question": "How many people can be included in a development team at maximum according to the scrum guide?",
-    "options": [
-      "The Scrum Master should make all technical decisions",
-      "Communication should be minimized to avoid confusion",
-      "Daily Scrum should last 30 minutes",
-      "9"
-    ],
-    "answer": [
-      3
-    ],
-    "id": 65
-  },
+{
+  "question": "How many people can be included in a Development Team at maximum according to the Scrum Guide?",
+  "options": [
+    "5",
+    "7",
+    "9",
+    "12"
+  ],
+  "answer": [
+    2
+  ],
+  "id": 65
+},
   {
     "question": "Suppose a company is trying to adopt the scrum framework. There are 11 developers, a product owner and you a scrum master. How can the developers be divided into teams?",
     "options": [
@@ -925,7 +923,7 @@
     "id": 68
   },
   {
-    "question": "Helping employees and stakeholders understand and enact Scrum and empirical product development is ont of the way the Product owner serve the organization",
+    "question": "Helping employees and stakeholders understand and enact Scrum and empirical product development is one of the ways the Product Owner serves the organization.",
     "options": [
       "Transparency should be limited to protect team morale",
       "Scrum has only one artifact: the Product Backlog",
@@ -1568,7 +1566,7 @@
     "id": 117
   },
   {
-    "question": "Which three activities will a Product Owner likely engage in during a Sprint?",
+    "question": "Which activities will a Product Owner likely engage in during a Sprint?",
     "options": [
       "Answer questions from the Development Team about items in the current Sprint.",
       "Provide feedback.",
@@ -1594,20 +1592,18 @@
     ],
     "id": 119
   },
-  {
-    "question": "What are the characteristics of a Development Team? Select three.",
-    "options": [
-      "Accountability belongs to the development team as a whole",
-      "Scrum recognizes no sub-teams in the development team",
-      "Scrum recognizes no titles for development team members other than Developer"
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "id": 120
-  },
+{
+  "question": "What are the characteristics of a Development Team? Select three.",
+  "options": [
+    "Accountability belongs to the development team as a whole",
+    "Scrum recognizes no sub-teams in the development team",
+    "Scrum recognizes no titles for development team members other than Developer",
+    "The Scrum Master assigns tasks to each Developer",
+    "The Product Owner can override technical decisions"
+  ],
+  "answer": [0, 1, 2],
+  "id": 120
+},
   {
     "question": "What are the three main questions each member of the Development team should answer at the Daily scrum?",
     "options": [
@@ -1751,7 +1747,7 @@
     "id": 131
   },
   {
-    "question": "As the Development Team starts work during the Sprint, it realizes it has…",
+    "question": "As the Development Team starts work during the Sprint, it realizes it has encountered an unexpected problem. What should the team do?",
     "options": [
       "As soon as possible in the Sprint, work with the Product…",
       "Wait until the next Sprint",
@@ -2399,8 +2395,7 @@
       "Transparency about completed work"
     ],
     "answer": [
-      2,
-      3
+      2
     ],
     "id": 180
   },

@@ -4,19 +4,25 @@ import quizData from './data/quiz.json'; // deve contenere: [{id, question, opti
 const MAX_TIME_SECONDS = 60 * 60; // 60 minuti
 
 function getRandomQuestions(data, n) {
-  // Rimuovi eventuali domande duplicate in base all'id
-  const uniqueDataMap = new Map();
+  // Verifica domande uniche sia per id che per stringa della domanda
+  // Mappa per id
+  const uniqueIdMap = new Map();
   data.forEach(item => {
-    if (!uniqueDataMap.has(item.id)) uniqueDataMap.set(item.id, item);
+    // Usa anche la domanda come discriminante per sicurezza
+    const key = `${item.id}_${item.question}`;
+    if (!uniqueIdMap.has(key)) uniqueIdMap.set(key, item);
   });
-  const uniqueData = Array.from(uniqueDataMap.values());
-  // Fisher-Yates shuffle
-  for (let i = uniqueData.length - 1; i > 0; i--) {
+  const uniqueQuestions = Array.from(uniqueIdMap.values());
+
+  // Shuffle Fisher-Yates
+  for (let i = uniqueQuestions.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [uniqueData[i], uniqueData[j]] = [uniqueData[j], uniqueData[i]];
+    [uniqueQuestions[i], uniqueQuestions[j]] = [uniqueQuestions[j], uniqueQuestions[i]];
   }
-  return uniqueData.slice(0, Math.min(n, uniqueData.length));
+  // Prendi i primi n, senza alcuna ripetizione
+  return uniqueQuestions.slice(0, Math.min(n, uniqueQuestions.length));
 }
+
 
 
 export default function App() {
@@ -228,7 +234,7 @@ export default function App() {
 
   return (
     <div className="quiz-main">
-      <h1 className="app-title">Scrum Master Exam v.9<span role="img" aria-label="scrum">📝</span></h1>
+      <h1 className="app-title">Scrum Master Exam v.11<span role="img" aria-label="scrum">📝</span></h1>
 
       <div className="question-progress">
         <span className="badge">Domanda {current + 1} / {questions.length}</span>
@@ -297,7 +303,7 @@ export default function App() {
             <label>
               <input
                 type="checkbox"
-                checked={Array.isArray(answers[answerKey]) && answers[answerKey].includes(idx)}
+                checked={Array.isArray(answers[answerKey]) ? answers[answerKey].includes(idx) : false}
                 onChange={() => handleMultiAnswer(idx)}
                 disabled={paused}
               />

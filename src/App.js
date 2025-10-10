@@ -234,7 +234,7 @@ export default function App() {
 
   return (
     <div className="quiz-main">
-      <h1 className="app-title">Scrum Master Exam v.11<span role="img" aria-label="scrum">📝</span></h1>
+      <h1 className="app-title">Scrum Master Exam v.19<span role="img" aria-label="scrum">📝</span></h1>
 
       <div className="question-progress">
         <span className="badge">Domanda {current + 1} / {questions.length}</span>

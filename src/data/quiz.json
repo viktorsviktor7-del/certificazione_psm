@@ -1825,15 +1825,16 @@
     "multiple": true
   },
   {
-    "question": "The Development Team should have all the skills needed to:",
+    "question": "The Development Team should have all the skills needed to deliver a potentially releasable Increment by the end of the Sprint.",
     "options": [
       "Product Owner",
-      "Handle all administrative tasks",
-      "Manage stakeholder communications",
+      "Deliver a potentially releasable Increment",
+      "Manage the work in the Sprint Backlog",
       "Conduct performance reviews"
     ],
     "answer": [
-      0
+      1,
+      2
     ],
     "id": 128,
     "dominioAppartenenza": "Ruoli Scrum",
@@ -2102,7 +2103,8 @@
       "It creates transparency over the work inspected at the Sprint Review."
     ],
     "answer": [
-      0
+      0,
+      3
     ],
     "id": 147,
     "dominioAppartenenza": "Ruoli Scrum",

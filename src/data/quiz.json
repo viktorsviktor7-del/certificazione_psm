@@ -236,23 +236,6 @@
     "multiple": true
   },
   {
-    "question": "Which Scrum values are exhibited by not building Product Backlog items that are unlikely to be done?",
-    "options": [
-      "Openness",
-      "Focus",
-      "Courage",
-      "Respect"
-    ],
-    "answer": [
-      1,
-      2,
-      3
-    ],
-    "id": 17,
-    "dominioAppartenenza": "Artefatti Scrum",
-    "multiple": true
-  },
-  {
     "question": "Which Scrum value is affected by a lack of trust in the Scrum Team?",
     "options": [
       "Focus - team can't concentrate on goals",
@@ -360,7 +343,7 @@
     "dominioAppartenenza": "Scrum Framework",
     "multiple": false
   },
-{
+  {
     "question": "In Scrum, how are architecture and infrastructure typically planned and implemented? Choose correct answers.",
     "options": [
       "Scrum Master",
@@ -375,7 +358,7 @@
     "id": 26,
     "dominioAppartenenza": "Scrum Framework",
     "multiple": true
-},
+  },
   {
     "question": "What does Team Velocity measure?",
     "options": [
@@ -392,17 +375,17 @@
     "multiple": false
   },
   {
-    "question": "Which of the below are Scrum Values?",
+    "question": "Which of the following are Scrum Values?",
     "options": [
-      "Sprint Planning",
       "Focus",
       "Courage",
-      "Openness"
+      "Openness",
+      "Accountability"
     ],
     "answer": [
+      0,
       1,
-      2,
-      3
+      2
     ],
     "id": 28,
     "dominioAppartenenza": "Valori Scrum",
@@ -472,21 +455,22 @@
     "dominioAppartenenza": "Scrum Framework",
     "multiple": false
   },
-  {
-    "question": "What do the words DEVELOP and DEVELOPMENT mean in the context of Scrum?",
-    "options": [
-      "Development of an operational environment for the Product usage",
-      "Product development, its releasing and sustaining",
-      "Research and identifyinf of viable markets, technologies, and Product capabilities",
-      "Software and hardware development"
-    ],
-    "answer": [
-      1
-    ],
-    "id": 34,
-    "dominioAppartenenza": "Scrum Framework",
-    "multiple": false
-  },
+{
+  "question": "In the context of Scrum, what do the words 'Develop' and 'Development' refer to?",
+  "options": [
+    "Only software programming and engineering",
+    "All activities involved in creating and sustaining a valuable product",
+    "Building the technical infrastructure where the product will run",
+    "Market research and customer acquisition"
+  ],
+  "answer": [
+    1
+  ],
+  "id": 34,
+  "dominioAppartenenza": "Scrum Framework",
+  "multiple": false
+}
+,
   {
     "question": "Where can Scrum be used? Check all the applicable items",
     "options": [
@@ -534,22 +518,6 @@
     "id": 37,
     "dominioAppartenenza": "Scrum Framework",
     "multiple": false
-  },
-  {
-    "question": "The Scrum Team has been working on a product for nine Sprints. A new Product Owner comes in, understanding he is accountable for the Product Backlog. However, he is unsure about his responsibilities. Which  activities are part of the Product Owner role according to Scrum? ",
-    "options": [
-      "Avoiding contact with stakeholders",
-      "Delivering features without regard to value or priority",
-      "Interacting with stakeholders",
-      "Product Backlog"
-    ],
-    "answer": [
-      2,
-      3
-    ],
-    "id": 38,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": true
   },
   {
     "question": "For the purpose of transparency, when does Scrum say a new Increment of working software must be available?",
@@ -612,33 +580,18 @@
     "multiple": false
   },
   {
-    "question": "Multiple Scrum Teams working on the same project must have the same Sprint start date",
+    "question": "When multiple Scrum Teams work on the same product, do their Sprints have to start on the same date?",
     "options": [
-      "Sprint Planning",
-      "Daily Scrum",
-      "Sprint Review",
-      "Multiple Scrum Teams working on the same project do not have to have the same Sprint start date, but it is often recommended to synchronize Sprint start and end dates to enhance coordination and integration of their work, especially when they are working together on a single Product Backlog."
+      "Yes, all Teams must have the same Sprint schedule by Scrum rule",
+      "No, each Team can plan its Sprints independently without coordination",
+      "It is not required, but aligning Sprint dates is often recommended to improve coordination and integration",
+      "Sprints must start together only if the Product Owner decides so"
     ],
     "answer": [
-      3
+      2
     ],
     "id": 43,
     "dominioAppartenenza": "Scaling Scrum",
-    "multiple": false
-  },
-  {
-    "question": "Every Scrum Team must have a Product Owner and Scrum Master",
-    "options": [
-      "Sprint Planning",
-      "Scrum Master",
-      "Product Owner",
-      "True. Each must be 100% dedicated to the Scrum Team"
-    ],
-    "answer": [
-      3
-    ],
-    "id": 44,
-    "dominioAppartenenza": "Ruoli Scrum",
     "multiple": false
   },
   {
@@ -657,15 +610,15 @@
     "multiple": false
   },
   {
-    "question": "A Scrum Team is only allowed to meet with stakeholders during…",
+    "question": "When does a Scrum Team meet with stakeholders?",
     "options": [
-      "Sprint Planning",
-      "Scrum Master",
-      "Product Owner",
-      "False"
+      "During the Sprint Review, which is the formal opportunity to collaborate and inspect the Increment",
+      "Only during Sprint Planning when discussing scope and priorities",
+      "Whenever the Scrum Master approves stakeholder meetings",
+      "Only at the end of the project to present the final product"
     ],
     "answer": [
-      3
+      0
     ],
     "id": 46,
     "dominioAppartenenza": "Scrum Framework",
@@ -687,15 +640,15 @@
     "multiple": false
   },
   {
-    "question": "If two Scrum Teams are added to a project that previously had only one Scrum Team, what will be the immediate impact on the first Scrum Team's productivity?",
+    "question": "If two additional Scrum Teams are added to a project that previously had only one Scrum Team, what will be the immediate impact on the first team's productivity?",
     "options": [
-      "Sprint Planning",
-      "Scrum Master",
-      "Product Owner",
-      "Its productivity is likely to stay the same"
+      "It will immediately increase",
+      "It will likely stay the same or decrease temporarily",
+      "True",
+      "False"
     ],
     "answer": [
-      3
+      1
     ],
     "id": 48,
     "dominioAppartenenza": "Scrum Framework",
@@ -734,19 +687,6 @@
     "multiple": true
   },
   {
-    "question": "When multiple teams work together on the same product, each team should maintain a separate Product Backlog",
-    "options": [
-      "True",
-      "False"
-    ],
-    "answer": [
-      1
-    ],
-    "id": 51,
-    "dominioAppartenenza": "Artefatti Scrum",
-    "multiple": false
-  },
-  {
     "question": "All the Scrum Teams working on the same product should have the same sprint length",
     "options": [
       "True",
@@ -760,17 +700,17 @@
     "multiple": false
   },
   {
-    "question": "What are the three main qualities the team model in Scrum is designed to optimized?",
+    "question": "What are the three main qualities the Scrum Team model is designed to optimize?",
     "options": [
-      "Sprint Planning",
       "Flexibility",
       "Creativity",
-      "Productivity"
+      "Productivity",
+      "Predictability"
     ],
     "answer": [
+      0,
       1,
-      2,
-      3
+      2
     ],
     "id": 53,
     "dominioAppartenenza": "Adattamento Organizzativo",
@@ -809,31 +749,15 @@
     "multiple": true
   },
   {
-    "question": "As the Sprint Planning meeting progreahan the Development Team's capacity. Which actions make the most sense for the Scrum Team To do?",
+    "question": "Cross-functional teams are optimized to work on one technical layer of the system only (e.g. GUI, database, middle tier, interfaces).",
     "options": [
-      "Sprint Planning",
-      "Communication should be minimized to avoid confusion",
-      "Alert the Product Owner, start the Sprint and monitor burndown rates.",
-      "Collaborate with the Product Owner and potentially remove or change items."
+      "True",
+      "False",
+      "They specialize in one area only",
+      "They include all skills needed to deliver a product increment"
     ],
     "answer": [
-      2,
-      3
-    ],
-    "id": 56,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": true
-  },
-  {
-    "question": "Cross-functional teams are optimized to work on one technical layer of the system only (eg. GUI, database, middle tier, interfaces).",
-    "options": [
-      "Transparency",
-      "Scrum Master",
-      "Product Owner",
-      "False"
-    ],
-    "answer": [
-      3
+      1
     ],
     "id": 57,
     "dominioAppartenenza": "Scrum Framework",
@@ -870,47 +794,32 @@
     "multiple": false
   },
   {
-    "question": "Scrum recommends to have at least a business analyst inside the Development Team working side by side the key stakeholders",
+    "question": "Scrum recommends having at least a Business Analyst inside the Development Team working alongside the key stakeholders.",
     "options": [
-      "Sprint Planning",
-      "Scrum Master",
-      "Product Owner",
-      "False"
+      "True",
+      "False",
+      "Scrum leaves team composition to the Scrum Team",
+      "Only the Product Owner interacts with stakeholders"
     ],
     "answer": [
-      3
+      1
     ],
     "id": 61,
-    "dominioAppartenenza": "Ruoli Scrum",
+    "dominioAppartenenza": "Scrum Roles",
     "multiple": false
   },
   {
-    "question": "Which of the following are the characteristics of a Product Owner?",
+    "question": "Which of the following are characteristics of a Development Team in Scrum?",
     "options": [
-      "Communication should be minimized to avoid confusion",
-      "Order the Product Backlog",
-      "Cleary expressing Product Backlog items",
-      "Ensuring that the Product Backlog is visible, transparent, and clear to all, and shows what Scrum team will work on netx"
+      "Scrum recognizes no title for Development Team members",
+      "Scrum recognizes no sub-teams in the Development Team",
+      "Developers are collectively accountable for creating a usable Increment",
+      "Each Developer reports individually to the Product Owner"
     ],
     "answer": [
-      2,
-      3
-    ],
-    "id": 62,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": true
-  },
-  {
-    "question": "Which of the following are the characteristics of a Development Team?",
-    "options": [
-      "Product Owner",
-      "Scrum Master",
-      "Scrum recognizes no title for development tem members",
-      "Scrum recognizes no sub-teams in the Development Team"
-    ],
-    "answer": [
-      2,
-      3
+      0,
+      1,
+      2
     ],
     "id": 63,
     "dominioAppartenenza": "Ruoli Scrum",
@@ -949,34 +858,6 @@
     "multiple": false
   },
   {
-    "question": "Suppose a company is trying to adopt the Scrum framework. There are 11 developers, a Product Owner and you a Scrum Master. How can the developers be divided into teams?",
-    "options": [
-      "2 teams of 7 and 4 people (after a short meeting the developers decided this is the best option)",
-      "One big team of 11 people"
-    ],
-    "answer": [
-      0
-    ],
-    "id": 66,
-    "dominioAppartenenza": "Scrum Framework",
-    "multiple": false
-  },
-  {
-    "question": "Which one of the below is managed by the Product Owner?",
-    "options": [
-      "Order the Product Backlog",
-      "Scrum Master",
-      "Product Owner",
-      "The Product Backlog"
-    ],
-    "answer": [
-      3
-    ],
-    "id": 67,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-  },
-  {
     "question": "Suppose a Development Team does not have any testing specialists in the team. What they shoud do?",
     "options": [
       "Product Owner",
@@ -1008,36 +889,6 @@
     "multiple": false
   },
   {
-    "question": "It is a good practice to have at least two Product owners on big projects",
-    "options": [
-      "Order the Product Backlog",
-      "Scrum Master",
-      "Product Owner",
-      "False"
-    ],
-    "answer": [
-      3
-    ],
-    "id": 71,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-  },
-  {
-    "question": "The Scrum Master observes the Product Owner struggling with ordering the Product Backlog. What is an appropriate action for the Scrum Master to take?",
-    "options": [
-      "Product Backlog",
-      "Scrum Master",
-      "Product Owner",
-      "Offer the Product Owner help in understanding that the goal of ordering the Product Backlog is to maximize value."
-    ],
-    "answer": [
-      3
-    ],
-    "id": 72,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-  },
-  {
     "question": "The Scrum Master does the following regarding the Daily Scrum (select all applicable variants)",
     "options": [
       "Teaches the Development Team to keep the Daily Scrum within the 15-minute time-box",
@@ -1055,15 +906,15 @@
     "multiple": true
   },
   {
-    "question": "The Scrum Master is focused primarily on the Scrum Team and usually does not care about those outside the Scrum Team",
+    "question": "Is it true that the Scrum Master focuses only on the Scrum Team and does not care about those outside the team?",
     "options": [
-      "Sprint Planning",
-      "Communication should be minimized to avoid confusion",
-      "Scrum Master",
-      "False"
+      "True",
+      "False",
+      "Only during Sprint Planning",
+      "Only when the Product Owner requests it"
     ],
     "answer": [
-      3
+      1
     ],
     "id": 74,
     "dominioAppartenenza": "Ruoli Scrum",
@@ -1084,35 +935,6 @@
     "id": 75,
     "dominioAppartenenza": "Ruoli Scrum",
     "multiple": true
-  },
-  {
-    "question": "How does the Scrum Master help the Product Owner?",
-    "options": [
-      "Facilitating Scrum events as requested or needed",
-      "Finding techniques for effective Product Backlog management",
-      "Understanding product planning in an empirical environment"
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "id": 76,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": true
-  },
-  {
-    "question": "Imagine you are a Scrum Master. There are 10 professionals (developers and QAs) and the Product Owner. How to distribute people between development teams?",
-    "options": [
-      "2 teams of 5 and 4 people (the professionals after a short meeting decides this is the best variants)",
-      "Sprint Planning"
-    ],
-    "answer": [
-      0
-    ],
-    "id": 77,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
   },
   {
     "question": "How does the Scrum Master serve the Development Team?",
@@ -1278,37 +1100,6 @@
     "multiple": false
   },
   {
-    "question": "Which  things are appropriate for a Scrum Master to do if the Development Team doesn't have the engineering tools and infrastructure to completely finish each selected Product Backlog item? ",
-    "options": [
-      "Coach the Development Team to improve its skills, tools and infrastructure over time and adjust the Definition of Done accordingly.",
-      "Have the Development Team establish a Definition of Done that is actually possible to achieve given current circumstances.",
-      "Product Backlog",
-      "Scrum Master"
-    ],
-    "answer": [
-      0,
-      1
-    ],
-    "id": 90,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": true
-  },
-  {
-    "question": "Which technique is the best way the Scrum Master can ensure that the Development Team communicates effectively with the Product Owner?",
-    "options": [
-      "Act as a full-time translator between them.",
-      "Prohibit direct communication.",
-      "Teach the Development Team to talk in terms of business needs and objectives.",
-      "Handle all communications personally."
-    ],
-    "answer": [
-      2
-    ],
-    "id": 91,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-  },
-  {
     "question": "The Development Team informs the Scrum Master that the IT manager has asked for a status report during the Sprint. The Scrum Master will:",
     "options": [
       "Immediately provide the requested status report.",
@@ -1335,21 +1126,6 @@
       2
     ],
     "id": 93,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-  },
-  {
-    "question": "A new developer is having continuing conflicts with existing Development Team members and creating a hostile environment. If necessary, who is responsible for removing the team member?",
-    "options": [
-      "The Product Owner, as they manage the team.",
-      "The Development Team, through voting.",
-      "Senior management, without team input.",
-      "The Scrum Master is responsible, because he/she removes impediments."
-    ],
-    "answer": [
-      3
-    ],
-    "id": 94,
     "dominioAppartenenza": "Ruoli Scrum",
     "multiple": false
   },
@@ -1433,275 +1209,6 @@
     "multiple": true
   },
   {
-    "question": "The Product Owner must release each Increment of production",
-    "options": [
-      "When it makes sense",
-      "Only at the end of the project",
-      "Immediately after every Sprint Review",
-      "Based on the Scrum Master's approval"
-    ],
-    "answer": [
-      0
-    ],
-    "id": 102,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-  },
-  {
-    "question": "The Product Owner determine how many Product Backlog items the Development Team selects for a Sprint?",
-    "options": [
-      "False",
-      "True",
-      "Only if the team asks",
-      "In collaboration with the Scrum Master"
-    ],
-    "answer": [
-      0
-    ],
-    "id": 103,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-  },
-  {
-    "question": "The Product Owner makes sure the team selects enough from the Product Backlog for a Sprint to satisfy the stakeholders.",
-    "options": [
-      "False",
-      "True",
-      "Only for large Sprints",
-      "With input from management"
-    ],
-    "answer": [
-      0
-    ],
-    "id": 104,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-  },
-  {
-    "question": "The Product Owner is not collaborating with the Development Team during the Sprint. What are two valuable actions for a Scrum Master to take?",
-    "options": [
-      "Coach the Product Owner in the values of Scrum and incremental delivery",
-      "Bring up the problem in the Sprint Retrospective"
-    ],
-    "answer": [
-      0,
-      1
-    ],
-    "id": 105,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": true
-  },
-  {
-    "question": "Which of the following are true about the Product Owner role?",
-    "options": [
-      "The Product Owner is accountable for ordering the Product Backlog.",
-      "The Product Owner can be influenced by committee.",
-      "He Product Owner is one person."
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "id": 106,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": true
-  },
-  {
-    "question": "What activities would a Product Owner typically undertake in the phase between the end of the current Sprint and the start of the next Sprint?",
-    "options": [
-      "There are no such activities. The next Sprint starts immediately after the current Sprint.",
-      "Refine the Product Backlog extensively",
-      "Hold a separate planning meeting",
-      "Review the previous Sprint's Increment alone"
-    ],
-    "answer": [
-      0
-    ],
-    "id": 107,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-  },
-  {
-    "question": "What is the accountability of the Product Owner during Sprint 0",
-    "options": [
-      "There is no such thing as Sprint 0",
-      "Initial planning and setup",
-      "Defining the initial backlog",
-      "Training the team"
-    ],
-    "answer": [
-      0
-    ],
-    "id": 108,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-  },
-  {
-    "question": "Why should the Product Owner be present at Daily Scrum?",
-    "options": [
-      "He/She doesn't need to be there",
-      "To assign tasks daily",
-      "To report to management",
-      "To override team decisions"
-    ],
-    "answer": [
-      0
-    ],
-    "id": 109,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-  },
-  {
-    "question": "Which phrase best describes a Product Owner?",
-    "options": [
-      "Value optimizer",
-      "Task assigner",
-      "Daily coordinator",
-      "Impediment remover"
-    ],
-    "answer": [
-      0
-    ],
-    "id": 110,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-  },
-  {
-    "question": "A Product Owner wants advice from the Scrum Master about estimating work in Scrum. Which of these is the guideline that a Scrum Master should give?",
-    "options": [
-      "Estimates are made by the Development Team",
-      "Estimates are done by the Product Owner",
-      "No estimates are needed in Scrum",
-      "Use hours for all estimates"
-    ],
-    "answer": [
-      0
-    ],
-    "id": 111,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-  },
-  {
-    "question": "Which  activities will a Product Owner engage in during a Sprint?",
-    "options": [
-      "Answer questions from the Development Team about…",
-      "Update the Sprint burndown chart"
-    ],
-    "answer": [
-      0
-    ],
-    "id": 112,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-  },
-  {
-    "question": "What are the most applicable characteristics of the Product Owner?",
-    "options": [
-      "Lead Facilitator of Key Stakeholder Involvement",
-      "Product Value Maximizer",
-      "Product Marketplace Expert"
-    ],
-    "answer": [
-      0,
-      1
-    ],
-    "id": 113,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": true
-  },
-  {
-    "question": "Which statement best describes a Product Owner's responsibility?",
-    "options": [
-      "Optimizing the value of the work the Development Team does.",
-      "Optimizing the Return on Investment (ROI) and the Total Cost of Ownership (TCO) of the work the Development Team does.",
-      "Managing daily team activities",
-      "Removing all impediments"
-    ],
-    "answer": [
-      0
-    ],
-    "id": 114,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-  },
-  {
-    "question": "It is a good practise to have at least two Product Owners on big projects",
-    "options": [
-      "False",
-      "True",
-      "Only if the project is very large",
-      "Recommended but not mandatory"
-    ],
-    "answer": [
-      0
-    ],
-    "id": 115,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-  },
-  {
-    "question": "During a Sprint Retrospective, for what is the Product Owner responsible?",
-    "options": [
-      "Participating as a Scrum team member and facilitating as requested and needed.",
-      "Leading the retrospective",
-      "Assigning action items",
-      "Reporting outcomes to stakeholders"
-    ],
-    "answer": [
-      0
-    ],
-    "id": 116,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-  },
-  {
-    "question": "The Product Owner must attend the Sprint Retrospective. True or false?",
-    "options": [
-      "True",
-      "False",
-      "Only if invited",
-      "Optional but highly recommended"
-    ],
-    "answer": [
-      3
-    ],
-    "id": 117,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-  },
-  {
-    "question": "Which activities will a Product Owner likely engage in during a Sprint?",
-    "options": [
-      "Answer questions from the Development Team about items in the current Sprint.",
-      "Provide feedback.",
-      "Work with the stakeholders"
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "id": 118,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": true
-  },
-  {
-    "question": "The Development Team does not have to explain to the Product Owner and the Scrum Master how it intends to work as a self-organizing team to accomplish the Sprint Goal and create the anticipated Increment",
-    "options": [
-      "False",
-      "True",
-      "Only if the Sprint Goal changes",
-      "During Sprint Planning only"
-    ],
-    "answer": [
-      1
-    ],
-    "id": 119,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-  },
-  {
     "question": "What are the characteristics of a Development Team? Select three.",
     "options": [
       "Accountability belongs to the Development Team as a whole",
@@ -1766,36 +1273,6 @@
     "multiple": false
   },
   {
-    "question": "All Development Teams working on the same Product should use the same Product Backlog.",
-    "options": [
-      "True",
-      "False",
-      "Only if coordinated by Scrum Master",
-      "Optional for large products"
-    ],
-    "answer": [
-      0
-    ],
-    "id": 124,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-  },
-  {
-    "question": "What part of the capacity of the Development Team does Product Backlog Refinement usually consume?",
-    "options": [
-      "Not more than 10%",
-      "Up to 50%",
-      "Exactly 20%",
-      "No specific limit"
-    ],
-    "answer": [
-      0
-    ],
-    "id": 125,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-  },
-  {
     "question": "When does a Development Team member become the sole owner of a Sprint Backlog item?",
     "options": [
       "Never. All Sprint Backlog Items are \"owned\" by the entire Development Team, even though each one may be done by an individual Development Team member.",
@@ -1825,7 +1302,7 @@
     "multiple": true
   },
   {
-    "question": "The Development Team should have all the skills needed to deliver a potentially releasable Increment by the end of the Sprint.",
+    "question": "What are the main responsibilities of the Development Team?",
     "options": [
       "Product Owner",
       "Deliver a potentially releasable Increment",
@@ -1837,30 +1314,32 @@
       2
     ],
     "id": 128,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
+    "dominioAppartenenza": "Scrum Roles",
+    "multiple": true
   },
   {
-    "question": "Which  things should the Development Team do during the first Sprint?",
+    "question": "During the first Sprint, which activities are the Development Team responsible for?",
     "options": [
-      "Sprint Planning",
-      "Create an Increment of potentially potentially releasable software."
+      "Develop Product Backlog items selected for the Sprint",
+      "Deliver a potentially releasable Increment of software",
+      "Participate in the Sprint Planning with the Scrum Team",
+      "Define or write the Product Vision"
     ],
     "answer": [
       0,
       1
     ],
     "id": 129,
-    "dominioAppartenenza": "Ruoli Scrum",
+    "dominioAppartenenza": "Scrum Roles",
     "multiple": true
   },
   {
-    "question": "What are two good ways for the Development Team to make non-functional requirements visible? ",
+    "question": "What are two good ways for the Development Team to make non-functional requirements visible?",
     "options": [
-      "Add them to the Product Backlog and keep the Product Owner posted on the expected effort.",
-      "Add them to the definition of \"Done\" so the work is taken care of every Sprint.",
-      "Product Owner",
-      "Scrum Master"
+      "Add them to the Product Backlog and keep the Product Owner informed of the required effort",
+      "Include them in the Definition of Done so they are addressed every Sprint",
+      "Create a separate backlog dedicated only to non-functional items",
+      "Document them outside Scrum to avoid slowing down Sprint work"
     ],
     "answer": [
       0,
@@ -1873,15 +1352,17 @@
   {
     "question": "What does it mean for a Development Team to be cross-functional?",
     "options": [
-      "The Development Team includes cross-skilled individuals who are able to contribute to do what is necessary to deliver an Increment of software.",
-      "They have all the expertise required for the product, in such a way that they do not need any help from the outside"
+      "The Development Team includes cross-skilled individuals who can do what is necessary to deliver a usable Increment each Sprint.",
+      "They have all the expertise needed within the team to deliver each Increment without depending on people outside the Scrum Team for that work.",
+      "They can handle any kind of technical task for any product without any external support."
     ],
     "answer": [
-      0
+      0,
+      1
     ],
     "id": 131,
     "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
+    "multiple": true
   },
   {
     "question": "As the Development Team starts work during the Sprint, it realizes it has encountered an unexpected problem. What should the team do?",
@@ -2020,19 +1501,19 @@
     "multiple": false
   },
   {
-    "question": "Choose responsibilities of a self-organizing Development Team",
+    "question": "Which of the following are responsibilities of a self-organizing Development Team?",
     "options": [
-      "Do the work planned in Sprint Backlog",
-      "Pull Product Backlog items for the Sprint.",
-      "Product Owner",
-      "Scrum Master"
+      "Work on the Product Backlog items selected for the Sprint",
+      "Update and manage tasks in the Sprint Backlog during the Sprint",
+      "Manage the Product Backlog",
+      "Assign tasks to other teams"
     ],
     "answer": [
       0,
       1
     ],
     "id": 142,
-    "dominioAppartenenza": "Ruoli Scrum",
+    "dominioAppartenenza": "Scrum Roles",
     "multiple": true
   },
   {
@@ -2096,36 +1577,6 @@
     "multiple": false
   },
   {
-    "question": "A Development Team selects a set of Product Backlog items for a Sprint Backlog with the intent to get the selected items \"Done\" by the end of the Sprint. Which phrases best describe the purpose of a definition of \"Done\"?",
-    "options": [
-      "It defines what it takes for an Increment to be ready for release.",
-      "It guides the Development Team in creating a forecast at the Sprint Planning.",
-      "It creates transparency over the work inspected at the Sprint Review."
-    ],
-    "answer": [
-      0,
-      3
-    ],
-    "id": 147,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-  },
-  {
-    "question": "How much work must a Development Team do to a Product Backlog item it selects for a Sprint?",
-    "options": [
-      "As much as it has told the Product Owner will be done for every Product Backlog item it selects in conformance with the Definition of Done.",
-      "Only the minimum viable product",
-      "Whatever fits in the time available",
-      "All related tasks, even unplanned"
-    ],
-    "answer": [
-      0
-    ],
-    "id": 148,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-  },
-  {
     "question": "What is the best suited structure for Development Team…",
     "options": [
       "Component-based teams",
@@ -2155,21 +1606,22 @@
     "dominioAppartenenza": "Ruoli Scrum",
     "multiple": false
   },
-  {
-    "question": "The CEO asks the Development Team to add a \"very important\" item to a Sprint that is in progress. What should the Development Team do?",
-    "options": [
-      "Inform the Product Owner so he/she can work with the CEO.",
-      "Discuss the item with the other members of the Scrum Team so the team can decide what to do.",
-      "Add it immediately to please the CEO",
-      "Ignore it until the next Sprint"
-    ],
-    "answer": [
-      0
-    ],
-    "id": 151,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-  },
+{
+  "question": "During a Sprint, the CEO asks the Developers to add a 'very important' item to the current Sprint. What should the Developers do?",
+  "options": [
+    "Inform the Product Owner, who can discuss it with the CEO and decide the appropriate action",
+    "Discuss it with the Scrum Team and decide collectively whether to include it",
+    "Add it immediately to maintain good relations with the CEO",
+    "Ignore it until the next Sprint"
+  ],
+  "answer": [
+    0
+  ],
+  "id": 151,
+  "dominioAppartenenza": "Scrum Roles",
+  "multiple": false
+}
+,
   {
     "question": "A Development Team is required to deliver a done Increment by the end of the Sprint.",
     "options": [
@@ -2182,21 +1634,6 @@
       0
     ],
     "id": 152,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-},
-  {
-    "question": "Could the Product Owner and the Scrum Master be a part of the Development Team?",
-    "options": [
-      "True",
-      "False",
-      "Only if part-time",
-      "Recommended against"
-    ],
-    "answer": [
-      0
-    ],
-    "id": 153,
     "dominioAppartenenza": "Ruoli Scrum",
     "multiple": false
   },
@@ -2261,21 +1698,6 @@
     "multiple": false
   },
   {
-    "question": "Which Scrum event is primarily focused on inspecting the Increment and adapting the Product Backlog if needed?",
-    "options": [
-      "Sprint Planning",
-      "Sprint Retrospective",
-      "Daily Scrum",
-      "Sprint Review"
-    ],
-    "answer": [
-      3
-    ],
-    "id": 158,
-    "dominioAppartenenza": "Eventi Scrum",
-    "multiple": false
-  },
-  {
     "question": "What is the typical outcome of a Sprint?",
     "options": [
       "A completed Gantt chart",
@@ -2289,22 +1711,6 @@
     "id": 159,
     "dominioAppartenenza": "Scrum Framework",
     "multiple": false
-  },
-  {
-    "question": "How is Product Backlog prioritized?",
-    "options": [
-      "By the Scrum Master",
-      "Based on value",
-      "Randomly",
-      "By the Product Owner"
-    ],
-    "answer": [
-      1,
-      3
-    ],
-    "id": 160,
-    "dominioAppartenenza": "Artefatti Scrum",
-    "multiple": true
   },
   {
     "question": "Which document is updated as new requirements emerge during the project?",
@@ -2384,39 +1790,6 @@
     "id": 175,
     "dominioAppartenenza": "Scrum Framework",
     "multiple": true
-  },
-  {
-    "question": "Which of the following are responsibilities of the Product Owner during the Sprint?",
-    "options": [
-      "Clarifying requirements for the Development Team",
-      "Attending all Daily Scrums and assigning tasks",
-      "Updating the Product Backlog as needed",
-      "Prioritizing items based on business value",
-      "Authorizing releases without stakeholder involvement"
-    ],
-    "answer": [
-      0,
-      2,
-      3
-    ],
-    "id": 186,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": true
-  },
-  {
-    "question": "What is the purpose of Product Backlog Refinement in Scrum?",
-    "options": [
-      "To approve items for the next Sprint and finalize the Sprint Goal",
-      "To make Product Backlog items clearer and more detailed for future Sprints",
-      "To re-estimate completed items and update the Sprint velocity",
-      "To reprioritize the current Sprint Backlog based on stakeholder feedback"
-    ],
-    "answer": [
-      1
-    ],
-    "id": 196,
-    "dominioAppartenenza": "Artefatti Scrum",
-    "multiple": false
   },
   {
     "question": "What is the Increment in Scrum?",
@@ -2529,10 +1902,11 @@
       "Product Backlog and Increment integration every Sprint",
       "Same Sprint Backlog",
       "Same Developers",
-      "Same Definition of Done implicitly"
+      "Same Definition of Done mutually agreed upon"
     ],
     "answer": [
-      0
+      0,
+      3
     ],
     "id": 204,
     "dominioAppartenenza": "Scaling Scrum",
@@ -2974,21 +2348,6 @@
     "multiple": false
   },
   {
-    "question": "How many Product Backlogs should exist for a single product?",
-    "options": [
-      "One Product Backlog shared by all Scrum Teams working on the product",
-      "One Product Backlog per team always",
-      "A Product Backlog for each Sprint",
-      "No Product Backlog is needed if teams coordinate"
-    ],
-    "answer": [
-      0
-    ],
-    "id": 241,
-    "dominioAppartenenza": "Scrum Framework",
-    "multiple": false
-  },
-  {
     "question": "Which is a recommended team size for a Development Team according to Scrum Guide?",
     "options": [
       "1 to 3 people",
@@ -3184,21 +2543,6 @@
     "multiple": false
   },
   {
-    "question": "What ensures accountability for the Product Backlog?",
-    "options": [
-      "The Product Owner is accountable for ordering and managing the Product Backlog",
-      "The Scrum Master owns the Product Backlog",
-      "The Development Team manages the Product Backlog independently",
-      "Management controls the Product Backlog contents"
-    ],
-    "answer": [
-      0
-    ],
-    "id": 255,
-    "dominioAppartenenza": "Scrum Framework",
-    "multiple": false
-  },
-  {
     "question": "Which practice would break Scrum rules?",
     "options": [
       "Allowing the Product Backlog to be ordered",
@@ -3211,21 +2555,6 @@
     ],
     "id": 256,
     "dominioAppartenenza": "Scrum Framework",
-    "multiple": false
-  },
-  {
-    "question": "Who is accountable for ordering the Product Backlog?",
-    "options": [
-      "Product Owner",
-      "Scrum Master",
-      "Developers",
-      "Stakeholders"
-    ],
-    "answer": [
-      0
-    ],
-    "id": 257,
-    "dominioAppartenenza": "Ruoli Scrum",
     "multiple": false
   },
   {
@@ -3274,77 +2603,32 @@
     "multiple": false
   },
   {
-    "question": "Who helps the Product Owner with techniques for effective Product Backlog management?",
-    "options": [
-      "Scrum Master",
-      "Stakeholders",
-      "Project Manager",
-      "QA Lead"
-    ],
-    "answer": [
-      0
-    ],
-    "id": 261,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-  },
-  {
-    "question": "Can the Product Owner delegate the responsibility of ordering the Product Backlog?",
-    "options": [
-      "Yes, the Product Owner can delegate but remains accountable",
-      "No, delegation is forbidden",
-      "Only if senior management approves",
-      "Only to the Scrum Master"
-    ],
-    "answer": [
-      0
-    ],
-    "id": 262,
-    "dominioAppartenenza": "Ruoli Scrum",
-    "multiple": false
-  },
-  {
     "question": "Which items are Scrum Artifacts?",
     "options": [
-      "Product Backlog",
       "Sprint Backlog",
+      "Sprint Goal",
       "Increment",
-      "Sprint Goal"
+      "Product Backlog"
     ],
     "answer": [
-      0,
+      3,
       2,
-      1
+      0
     ],
     "id": 263,
     "dominioAppartenenza": "Artefatti Scrum",
     "multiple": true
   },
   {
-    "question": "Who is accountable for the Product Backlog?",
+    "question": "Who owns the Sprint Backlog during the Sprint?",
     "options": [
-      "Product Owner",
-      "Scrum Master",
-      "Developers",
-      "Stakeholders"
+      "The Developers (Development Team)",
+      "Senior management",
+      "The Product Owner",
+      "The Scrum Master"
     ],
     "answer": [
       0
-    ],
-    "id": 264,
-    "dominioAppartenenza": "Artefatti Scrum",
-    "multiple": false
-  },
-  {
-    "question": "Who owns the Sprint Backlog during the Sprint?",
-    "options": [
-      "The Product Owner",
-      "The Scrum Master",
-      "The Developers (Development Team)",
-      "Senior management"
-    ],
-    "answer": [
-      2
     ],
     "id": 265,
     "dominioAppartenenza": "Artefatti Scrum",
@@ -3353,13 +2637,13 @@
   {
     "question": "When must a new Increment be available according to Scrum?",
     "options": [
+      "Only after integration testing",
       "Only at major milestones",
       "At the end of every Sprint",
-      "Only when the Product Owner requests a release",
-      "Only after integration testing"
+      "Only when the Product Owner requests a release"
     ],
     "answer": [
-      1
+      2
     ],
     "id": 266,
     "dominioAppartenenza": "Artefatti Scrum",
@@ -3368,13 +2652,13 @@
   {
     "question": "What is the Definition of Done (DoD) used for?",
     "options": [
-      "To create a shared understanding of what it means for work to be complete and releasable",
       "To assign individual developer tasks",
+      "To create a shared understanding of what it means for work to be complete and releasable",
       "To schedule meetings",
       "To set the Sprint length"
     ],
     "answer": [
-      0
+      1
     ],
     "id": 267,
     "dominioAppartenenza": "Artefatti Scrum",
@@ -3383,13 +2667,13 @@
   {
     "question": "When should the Sprint Backlog be updated?",
     "options": [
-      "Continuously during the Sprint as work progresses",
       "Only after Sprint Review",
+      "Never",
       "Only at the end of the Sprint",
-      "Never"
+      "Continuously during the Sprint as work progresses"
     ],
     "answer": [
-      0
+      3
     ],
     "id": 268,
     "dominioAppartenenza": "Artefatti Scrum",
@@ -3398,30 +2682,240 @@
   {
     "question": "Who ensures the Increment meets the Definition of Done?",
     "options": [
-      "Developers (Development Team)",
-      "Product Owner alone",
+      "Stakeholders",
       "Scrum Master alone",
-      "Stakeholders"
+      "Developers (Development Team)",
+      "Product Owner alone"
     ],
     "answer": [
-      0
+      2
     ],
     "id": 269,
     "dominioAppartenenza": "Artefatti Scrum",
     "multiple": false
   },
   {
-    "question": "How often should the Product Backlog be consulted by the Scrum Team?",
+    "question": "What is a Forecast in Scrum?",
     "options": [
-      "Regularly and as needed throughout the Sprint and product development",
-      "Only during Sprint Planning",
-      "Only when executives request it",
-      "Once per quarter"
+      "A prediction made by the Product Owner about market demand",
+      "A document used by stakeholders to evaluate progress",
+      "A commitment by the Scrum Team to deliver a fixed number of Product Backlog items",
+      "The Developers’ projection of the functionality that will be developed during the Sprint"
+    ],
+    "answer": [
+      3
+    ],
+    "id": 271,
+    "dominioAppartenenza": "Eventi Scrum",
+    "multiple": false
+  },
+  {
+    "question": "What does Coherence refer to in Scrum?",
+    "options": [
+      "The alignment between Scrum Teams working on different products",
+      "The consistency of velocity across Sprints",
+      "The degree to which the Product Backlog items fit together to achieve a common objective",
+      "The clarity of individual tasks within a Sprint Backlog"
+    ],
+    "answer": [
+      2
+    ],
+    "id": 272,
+    "dominioAppartenenza": "Concetti Scrum",
+    "multiple": false
+  },
+  {
+    "question": "Who are Stakeholders in Scrum?",
+    "options": [
+      "Anyone who attends the Daily Scrum",
+      "People outside the Scrum Team with a vested interest in the product’s outcome",
+      "Only the Product Owner and Scrum Master",
+      "Customers only, excluding users or management"
+    ],
+    "answer": [
+      1
+    ],
+    "id": 273,
+    "dominioAppartenenza": "Ruoli e Responsabilità",
+    "multiple": false
+  },
+  {
+    "question": "What is the Sprint Goal?",
+    "options": [
+      "A single objective for the Sprint that provides guidance to the Scrum Team on why it is building the Increment",
+      "A commitment by the Product Owner to release the Increment",
+      "A detailed list of all the work to be done in the Sprint",
+      "A management-imposed KPI for Developers"
     ],
     "answer": [
       0
     ],
-    "id": 270,
+    "id": 274,
+    "dominioAppartenenza": "Eventi Scrum",
+    "multiple": false
+  },
+  {
+    "question": "What is Empiricism in Scrum?",
+    "options": [
+      "A planning technique based on detailed upfront analysis",
+      "A reporting method used during Sprint Reviews",
+      "A process control theory asserting that knowledge comes from experience and decisions are made based on observation",
+      "A forecasting tool for predicting delivery dates"
+    ],
+    "answer": [
+      2
+    ],
+    "id": 275,
+    "dominioAppartenenza": "Principi Scrum",
+    "multiple": false
+  },
+  {
+    "question": "What is Self-Management in Scrum?",
+    "options": [
+      "The Scrum Team’s ability to choose who does what, when, and how",
+      "A formal decision-making framework led by management",
+      "A personal performance assessment process for Developers",
+      "A form of autonomous management by the Product Owner only"
+    ],
+    "answer": [
+      0
+    ],
+    "id": 276,
+    "dominioAppartenenza": "Concetti Scrum",
+    "multiple": false
+  },
+  {
+    "question": "What does Transparency mean in the Scrum framework?",
+    "options": [
+      "Stakeholders are allowed to monitor the Developers daily",
+      "All aspects of the process must be visible to those responsible for the outcome",
+      "Velocity reports must be shared publicly with all departments",
+      "Product Backlog items must be described in extreme detail"
+    ],
+    "answer": [
+      1
+    ],
+    "id": 277,
+    "dominioAppartenenza": "Principi Scrum",
+    "multiple": false
+  },
+  {
+    "question": "What is the Increment in Scrum?",
+    "options": [
+      "A concrete stepping stone toward the Product Goal that must be usable and meet the Definition of Done",
+      "A theoretical measure of progress for future releases",
+      "A temporary demo prepared for the Sprint Review only",
+      "A list of all completed Product Backlog items"
+    ],
+    "answer": [
+      0
+    ],
+    "id": 278,
+    "dominioAppartenenza": "Artefatti Scrum",
+    "multiple": false
+  },
+  {
+    "question": "Which best describes Scrum Values?",
+    "options": [
+      "Efficiency, Accuracy, Control, and Predictability",
+      "Planning, Estimation, Transparency, Delivery, and Teamwork",
+      "Commitment, Focus, Openness, Respect, and Courage",
+      "Discipline, Coordination, Collaboration, and Reporting"
+    ],
+    "answer": [
+      2
+    ],
+    "id": 279,
+    "dominioAppartenenza": "Principi Scrum",
+    "multiple": false
+  },
+  {
+    "question": "Who is accountable for the Product Backlog?",
+    "options": [
+      "Developers",
+      "Product Owner",
+      "Scrum Master",
+      "Stakeholders"
+    ],
+    "answer": [
+      1
+    ],
+    "id": 280,
+    "dominioAppartenenza": "Ruoli Scrum",
+    "multiple": false
+  },
+  {
+    "question": "Which of the following activities is a primary responsibility of the Product Owner?",
+    "options": [
+      "Ordering (prioritizing) the Product Backlog",
+      "Assigning tasks to Developers",
+      "Running the Daily Scrum",
+      "Writing implementation code"
+    ],
+    "answer": [
+      0
+    ],
+    "id": 281,
+    "dominioAppartenenza": "Ruoli Scrum",
+    "multiple": false
+  },
+  {
+    "question": "Which statement best describes the Product Owner?",
+    "options": [
+      "A value optimizer who maximizes the value of the product and manages the Product Backlog",
+      "A project manager who assigns daily tasks to team members",
+      "A technical lead who decides the architecture",
+      "A scrum event facilitator only"
+    ],
+    "answer": [
+      0
+    ],
+    "id": 282,
+    "dominioAppartenenza": "Ruoli Scrum",
+    "multiple": false
+  },
+  {
+    "question": "Can a Product Owner delegate ordering the Product Backlog?",
+    "options": [
+      "No — delegation is forbidden",
+      "Yes — the Product Owner can delegate but remains accountable",
+      "Only to the Scrum Master",
+      "Only to stakeholders"
+    ],
+    "answer": [
+      1
+    ],
+    "id": 283,
+    "dominioAppartenenza": "Artefatti Scrum",
+    "multiple": false
+  },
+  {
+    "question": "When multiple Scrum Teams work on the same Product, how many Product Backlogs should be used?",
+    "options": [
+      "Each team should maintain its own Product Backlog",
+      "A single Product Backlog for the Product, maintained by the Product Owner",
+      "One backlog per team but a shared owner coordinates them",
+      "No backlog is needed when multiple teams exist"
+    ],
+    "answer": [
+      1
+    ],
+    "id": 284,
+    "dominioAppartenenza": "Scaling Scrum",
+    "multiple": false
+  },
+  {
+    "question": "Who should consult and feed the Product Backlog with requirements and feedback?",
+    "options": [
+      "Only the Product Owner",
+      "Product Owner with input from stakeholders, Scrum Team (Developers) and customers",
+      "Only stakeholders outside the Scrum Team",
+      "Only Developers during Sprint Planning"
+    ],
+    "answer": [
+      1
+    ],
+    "id": 285,
     "dominioAppartenenza": "Artefatti Scrum",
     "multiple": false
   }

@@ -1,0 +1,1488 @@
+[
+      {
+      "id": "1",
+      "dominioAppartenenza": "Artifacts",
+      "question": "What is the main purpose of the Burn-down Chart?",
+      "options": [
+        "To define the Definition of Done",
+        "To show the remaining work over time",
+        "To show the completed work",
+        "To plan the Sprint Retrospective"
+      ],
+      "answer": [
+        1
+      ],
+      "multiple": false
+    },
+    {
+      "id": "2",
+      "dominioAppartenenza": "Artifacts",
+      "question": "Which axis of the Burn-down Chart represents time?",
+      "options": [
+        "Horizontal",
+        "Vertical",
+        "Diagonal",
+        "None"
+      ],
+      "answer": [
+        0
+      ],
+      "multiple": false
+    },
+    {
+      "id": "3",
+      "dominioAppartenenza": "Artifacts",
+      "question": "What units can be used to measure the work in a Burn-down Chart?",
+      "options": [
+        "Project budget",
+        "Number of stakeholders",
+        "User story points",
+        "Work hours"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "multiple": true
+    },
+    {
+      "id": "4",
+      "dominioAppartenenza": "Artifacts",
+      "question": "What does a Burn-up Chart show?",
+      "options": [
+        "The completed work",
+        "The remaining work",
+        "Team velocity",
+        "The Product Goal"
+      ],
+      "answer": [
+        0
+      ],
+      "multiple": false
+    },
+    {
+      "id": "5",
+      "dominioAppartenenza": "Artifacts",
+      "question": "Which line in a Burn-up Chart tends to rise over time?",
+      "options": [
+        "Remaining work",
+        "Budget",
+        "Completed work",
+        "Number of bugs"
+      ],
+      "answer": [
+        2
+      ],
+      "multiple": false
+    },
+    {
+      "id": "6",
+      "dominioAppartenenza": "Artifacts",
+      "question": "What can be represented in a Burn-up Chart besides the completed work?",
+      "options": [
+        "The Definition of Ready",
+        "The total scope",
+        "Team velocity",
+        "The team's hours of sleep"
+      ],
+      "answer": [
+        1
+      ],
+      "multiple": false
+    },
+    {
+      "id": "7",
+      "dominioAppartenenza": "Concepts",
+      "question": "What does Coherence mean in the Product Backlog?",
+      "options": [
+        "The quality of the code",
+        "The duration of the Sprint",
+        "The speed at which they are completed",
+        "Relationship between items that makes them relevant as a whole"
+      ],
+      "answer": [
+        3
+      ],
+      "multiple": false
+    },
+    {
+      "id": "8",
+      "dominioAppartenenza": "Concepts",
+      "question": "To which other Scrum concept is Coherence linked?",
+      "options": [
+        "Technical Debt",
+        "Sprint Goal",
+        "Velocity",
+        "Product Goal"
+      ],
+      "answer": [
+        1
+      ],
+      "multiple": false
+    },
+    {
+      "id": "9",
+      "dominioAppartenenza": "Concepts",
+      "question": "Why is Coherence important in the backlog?",
+      "options": [
+        "It eliminates the need for Refinement",
+        "It helps define clear objectives",
+        "It reduces complexity",
+        "It increases velocity"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "multiple": true
+    },
+    {
+      "id": "10",
+      "dominioAppartenenza": "Events",
+      "question": "Who attends the Daily Scrum?",
+      "options": [
+        "The Developers",
+        "Only the Product Owner",
+        "External management",
+        "The stakeholders"
+      ],
+      "answer": [
+        0
+      ],
+      "multiple": false
+    },
+    {
+      "id": "11",
+      "dominioAppartenenza": "Events",
+      "question": "How long does the Daily Scrum last?",
+      "options": [
+        "30 minutes",
+        "15 minutes",
+        "1 hour",
+        "It depends on the Product Owner"
+      ],
+      "answer": [
+        1
+      ],
+      "multiple": false
+    },
+    {
+      "id": "12",
+      "dominioAppartenenza": "Events",
+      "question": "What is the purpose of the Daily Scrum?",
+      "options": [
+        "To review the Increment with stakeholders",
+        "To update the Definition of Done",
+        "To plan the work for the next 24 hours",
+        "To conduct a financial balance"
+      ],
+      "answer": [
+        2
+      ],
+      "multiple": false
+    },
+    {
+      "id": "13",
+      "dominioAppartenenza": "Artifacts",
+      "question": "What is the Definition of Done?",
+      "options": [
+        "A list of bugs to fix",
+        "A budget document",
+        "A formal description of the required quality",
+        "A list of stakeholders"
+      ],
+      "answer": [
+        2
+      ],
+      "multiple": false
+    },
+    {
+      "id": "14",
+      "dominioAppartenenza": "Artifacts",
+      "question": "What is created when a Product Backlog item meets the Definition of Done?",
+      "options": [
+        "A Review",
+        "A Retrospective",
+        "An Increment",
+        "A Sprint"
+      ],
+      "answer": [
+        2
+      ],
+      "multiple": false
+    },
+    {
+      "id": "15",
+      "dominioAppartenenza": "Artifacts",
+      "question": "Why is the Definition of Done important?",
+      "options": [
+        "It allows the item to be released",
+        "It eliminates the need for Refinement",
+        "It provides a shared understanding",
+        "It ensures transparency"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "multiple": true
+    },
+    {
+      "id": "16",
+      "dominioAppartenenza": "Roles",
+      "question": "Who is considered a Developer in Scrum?",
+      "options": [
+        "Only analysts",
+        "Any member who creates Increments",
+        "Only programmers",
+        "Only testers"
+      ],
+      "answer": [
+        1
+      ],
+      "multiple": false
+    },
+    {
+      "id": "17",
+      "dominioAppartenenza": "Roles",
+      "question": "What do Developers do?",
+      "options": [
+        "Define the budget",
+        "Manage the Product Backlog",
+        "Create usable Increments",
+        "Facilitate Scrum events"
+      ],
+      "answer": [
+        2
+      ],
+      "multiple": false
+    },
+    {
+      "id": "18",
+      "dominioAppartenenza": "Roles",
+      "question": "Are Developers limited to one specialization?",
+      "options": [
+        "No, they contribute regardless of specialization",
+        "Yes, only programming",
+        "Yes, only testing",
+        "Yes, only analysis"
+      ],
+      "answer": [
+        0
+      ],
+      "multiple": false
+    },
+    {
+      "id": "19",
+      "dominioAppartenenza": "Concepts",
+      "question": "What does Emergence mean in Scrum?",
+      "options": [
+        "Unexpected appearance of new knowledge",
+        "Sprint planning",
+        "Definition of technical standards",
+        "Velocity measurement"
+      ],
+      "answer": [
+        0
+      ],
+      "multiple": false
+    },
+    {
+      "id": "20",
+      "dominioAppartenenza": "Concepts",
+      "question": "What characteristic does Emergence have?",
+      "options": [
+        "It is always linked to the budget",
+        "It is planned",
+        "It is unexpected",
+        "It is always negative"
+      ],
+      "answer": [
+        2
+      ],
+      "multiple": false
+    },
+    {
+      "id": "21",
+      "dominioAppartenenza": "Concepts",
+      "question": "Why is Emergence useful?",
+      "options": [
+        "It eliminates the need for retrospectives",
+        "It brings new knowledge",
+        "It helps with adaptation",
+        "It reduces transparency"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "multiple": true
+    },
+    {
+      "id": "22",
+      "dominioAppartenenza": "Concepts",
+      "question": "What is Empiricism in Scrum?",
+      "options": [
+        "Control based on observation, experience, and experimentation",
+        "A retrospective",
+        "A velocity metric",
+        "A programming technique"
+      ],
+      "answer": [
+        0
+      ],
+      "multiple": false
+    },
+    {
+      "id": "23",
+      "dominioAppartenenza": "Concepts",
+      "question": "What are the three pillars of Empiricism?",
+      "options": [
+        "Planning, execution, control",
+        "Budget, time, scope",
+        "Transparency, inspection, adaptation",
+        "Leadership, communication, precision"
+      ],
+      "answer": [
+        2
+      ],
+      "multiple": false
+    },
+    {
+      "id": "24",
+      "dominioAppartenenza": "Concepts",
+      "question": "Why is Empiricism important?",
+      "options": [
+        "It allows fact-based decisions",
+        "It increases transparency",
+        "It reduces uncertainty",
+        "It eliminates the need for backlog"
+      ],
+      "answer": [
+        0,
+        2,
+        1
+      ],
+      "multiple": true
+    },
+    {
+      "id": "25",
+      "dominioAppartenenza": "Concepts",
+      "question": "What are the Engineering Standards?",
+      "options": [
+        "Physical safety standards",
+        "Budget rules",
+        "Shared development standards",
+        "Marketing guidelines"
+      ],
+      "answer": [
+        2
+      ],
+      "multiple": false
+    },
+    {
+      "id": "26",
+      "dominioAppartenenza": "Concepts",
+      "question": "Who applies the Engineering Standards?",
+      "options": [
+        "The Developers",
+        "External management",
+        "The customers",
+        "The stakeholders"
+      ],
+      "answer": [
+        0
+      ],
+      "multiple": false
+    },
+    {
+      "id": "27",
+      "dominioAppartenenza": "Concepts",
+      "question": "Why are Engineering Standards needed?",
+      "options": [
+        "To reduce transparency",
+        "To create releasable Increments",
+        "To ensure quality",
+        "To eliminate the Definition of Done"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "multiple": true
+    },
+    {
+      "id": "28",
+      "dominioAppartenenza": "Concepts",
+      "question": "What is a Forecast in Scrum?",
+      "options": [
+        "A retrospective",
+        "A Definition of Ready",
+        "Selection of feasible items in the Sprint",
+        "A weather forecast"
+      ],
+      "answer": [
+        2
+      ],
+      "multiple": false
+    },
+    {
+      "id": "29",
+      "dominioAppartenenza": "Artifacts",
+      "question": "Who selects the items from the Product Backlog for the Forecast?",
+      "options": [
+        "The Product Owner",
+        "External management",
+        "The Developers",
+        "The stakeholders"
+      ],
+      "answer": [
+        2
+      ],
+      "multiple": false
+    },
+    {
+      "id": "30",
+      "dominioAppartenenza": "Artifacts",
+      "question": "When is the Forecast created?",
+      "options": [
+        "During Sprint Planning",
+        "During the Sprint Review",
+        "During the Daily Scrum",
+        "During the Retrospective"
+      ],
+      "answer": [
+        0
+      ],
+      "multiple": false
+    },
+    {
+      "id": "31",
+      "dominioAppartenenza": "Artifacts",
+      "question": "What does an Increment represent in Scrum?",
+      "options": [
+        "A Definition of Ready",
+        "A retrospective",
+        "A feature forecast",
+        "Complete and valuable work"
+      ],
+      "answer": [
+        3
+      ],
+      "multiple": false
+    },
+    {
+      "id": "32",
+      "dominioAppartenenza": "Artifacts",
+      "question": "Who produces the Increment?",
+      "options": [
+        "The stakeholders",
+        "The Developers",
+        "The Product Owner",
+        "External management"
+      ],
+      "answer": [
+        1
+      ],
+      "multiple": false
+    },
+    {
+      "id": "33",
+      "dominioAppartenenza": "Artifacts",
+      "question": "What does the sum of all Increments represent?",
+      "options": [
+        "Velocity",
+        "The Product Goal",
+        "The backlog",
+        "The product"
+      ],
+      "answer": [
+        3
+      ],
+      "multiple": false
+    },
+    {
+      "id": "34",
+      "dominioAppartenenza": "Artifacts",
+      "question": "What is the Product Backlog?",
+      "options": [
+        "A Definition of Done",
+        "An ordered list of work needed for the product",
+        "A list of bugs",
+        "A budget document"
+      ],
+      "answer": [
+        1
+      ],
+      "multiple": false
+    },
+    {
+      "id": "35",
+      "dominioAppartenenza": "Artifacts",
+      "question": "Who manages the Product Backlog?",
+      "options": [
+        "The Developers",
+        "The stakeholders",
+        "External management",
+        "The Product Owner"
+      ],
+      "answer": [
+        3
+      ],
+      "multiple": false
+    },
+    {
+      "id": "36",
+      "dominioAppartenenza": "Artifacts",
+      "question": "What is the purpose of the Product Backlog?",
+      "options": [
+        "To define the Product Goal",
+        "To manage the budget",
+        "To plan future work",
+        "To visualize velocity"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "multiple": true
+    },
+    {
+      "id": "37",
+      "dominioAppartenenza": "Events",
+      "question": "What is Product Backlog Refinement?",
+      "options": [
+        "A Definition of Ready",
+        "Activity to add detail to items",
+        "A review",
+        "A retrospective"
+      ],
+      "answer": [
+        1
+      ],
+      "multiple": false
+    },
+    {
+      "id": "38",
+      "dominioAppartenenza": "Events",
+      "question": "Who attends Product Backlog Refinement?",
+      "options": [
+        "Only the Scrum Master",
+        "Only stakeholders",
+        "Product Owner and Developers",
+        "Only management"
+      ],
+      "answer": [
+        2
+      ],
+      "multiple": false
+    },
+    {
+      "id": "39",
+      "dominioAppartenenza": "Events",
+      "question": "When does Product Backlog Refinement happen?",
+      "options": [
+        "Only in the Review",
+        "Only at the end of the project",
+        "During the Sprint",
+        "Only in the Retrospective"
+      ],
+      "answer": [
+        2
+      ],
+      "multiple": false
+    },
+    {
+      "id": "40",
+      "dominioAppartenenza": "Roles",
+      "question": "Who is the Product Owner?",
+      "options": [
+        "The one who maximizes the value of the product",
+        "A programmer",
+        "A facilitator",
+        "A tester"
+      ],
+      "answer": [
+        0
+      ],
+      "multiple": false
+    },
+    {
+      "id": "41",
+      "dominioAppartenenza": "Roles",
+      "question": "What is the main responsibility of the Product Owner?",
+      "options": [
+        "Managing the Product Backlog",
+        "Facilitating events",
+        "Maximizing value",
+        "Writing code"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "multiple": true
+    },
+    {
+      "id": "42",
+      "dominioAppartenenza": "Roles",
+      "question": "How does the Product Owner interact with the Developers?",
+      "options": [
+        "By planning holidays",
+        "By defining business and functional expectations",
+        "By writing tests",
+        "By managing the budget"
+      ],
+      "answer": [
+        1
+      ],
+      "multiple": false
+    },
+    {
+      "id": "43",
+      "dominioAppartenenza": "Artifacts",
+      "question": "What is the Product Goal?",
+      "options": [
+        "A Definition of Done",
+        "A review",
+        "A retrospective",
+        "The future state of the product"
+      ],
+      "answer": [
+        3
+      ],
+      "multiple": false
+    },
+    {
+      "id": "44",
+      "dominioAppartenenza": "Artifacts",
+      "question": "Where is the Product Goal located?",
+      "options": [
+        "In the Product Backlog",
+        "In the Sprint Backlog",
+        "In the Burn-down Chart",
+        "In the budget"
+      ],
+      "answer": [
+        0
+      ],
+      "multiple": false
+    },
+    {
+      "id": "45",
+      "dominioAppartenenza": "Artifacts",
+      "question": "Why is the Product Goal important?",
+      "options": [
+        "It provides a target",
+        "It eliminates the need for backlog",
+        "It guides planning",
+        "It reduces transparency"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "multiple": true
+    },
+    {
+      "id": "46",
+      "dominioAppartenenza": "Concepts",
+      "question": "What does Ready mean in Scrum?",
+      "options": [
+        "A review",
+        "Shared understanding of the item's level of detail",
+        "A Definition of Done",
+        "A retrospective"
+      ],
+      "answer": [
+        1
+      ],
+      "multiple": false
+    },
+    {
+      "id": "47",
+      "dominioAppartenenza": "Concepts",
+      "question": "Who defines the Ready concept?",
+      "options": [
+        "Only the Scrum Master",
+        "Product Owner and Developers",
+        "Only stakeholders",
+        "Only management"
+      ],
+      "answer": [
+        1
+      ],
+      "multiple": false
+    },
+    {
+      "id": "48",
+      "dominioAppartenenza": "Concepts",
+      "question": "When is the Ready concept useful?",
+      "options": [
+        "During the Daily Scrum",
+        "During the Review",
+        "During the Retrospective",
+        "During Sprint Planning"
+      ],
+      "answer": [
+        3
+      ],
+      "multiple": false
+    },
+    {
+      "id": "49",
+      "dominioAppartenenza": "Framework",
+      "question": "What is Scrum?",
+      "options": [
+        "A rigid methodology",
+        "A project management tool",
+        "A programming language",
+        "A lightweight framework for generating value"
+      ],
+      "answer": [
+        3
+      ],
+      "multiple": false
+    },
+    {
+      "id": "50",
+      "dominioAppartenenza": "Framework",
+      "question": "What is the purpose of Scrum?",
+      "options": [
+        "To generate value",
+        "To solve complex problems",
+        "To eliminate the need for teams",
+        "To define the budget"
+      ],
+      "answer": [
+        1,
+        0
+      ],
+      "multiple": true
+    },
+    {
+      "id": "51",
+      "dominioAppartenenza": "Framework",
+      "question": "Where is Scrum officially defined?",
+      "options": [
+        "In the Scrum Guide",
+        "In the budget",
+        "In the Product Backlog",
+        "In the Burn-down Chart"
+      ],
+      "answer": [
+        0
+      ],
+      "multiple": false
+    },
+    {
+      "id": "52",
+      "dominioAppartenenza": "Artifacts",
+      "question": "What is the Scrum Board?",
+      "options": [
+        "A physical board to visualize information",
+        "A retrospective",
+        "A Definition of Done",
+        "A review"
+      ],
+      "answer": [
+        0
+      ],
+      "multiple": false
+    },
+    {
+      "id": "53",
+      "dominioAppartenenza": "Artifacts",
+      "question": "What is the Scrum Board used for?",
+      "options": [
+        "To define the Product Goal",
+        "To measure velocity",
+        "To manage the Sprint Backlog",
+        "To visualize information"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "multiple": true
+    },
+    {
+      "id": "54",
+      "dominioAppartenenza": "Artifacts",
+      "question": "Is the Scrum Board mandatory?",
+      "options": [
+        "Yes, always",
+        "Only for complex projects",
+        "Only for large teams",
+        "No, it's optional"
+      ],
+      "answer": [
+        3
+      ],
+      "multiple": false
+    },
+    {
+      "id": "55",
+      "dominioAppartenenza": "Framework",
+      "question": "What is the Scrum Guide?",
+      "options": [
+        "A budget document",
+        "A programming manual",
+        "The official definition of Scrum",
+        "A retrospective"
+      ],
+      "answer": [
+        2
+      ],
+      "multiple": false
+    },
+    {
+      "id": "56",
+      "dominioAppartenenza": "Framework",
+      "question": "Who wrote the Scrum Guide?",
+      "options": [
+        "The PMI",
+        "Ken Schwaber and Jeff Sutherland",
+        "The stakeholders",
+        "External management"
+      ],
+      "answer": [
+        1
+      ],
+      "multiple": false
+    },
+    {
+      "id": "57",
+      "dominioAppartenenza": "Framework",
+      "question": "What does the Scrum Guide contain?",
+      "options": [
+        "Budget and costs",
+        "Roles, events, artifacts, and rules",
+        "Financial metrics",
+        "Source code"
+      ],
+      "answer": [
+        1
+      ],
+      "multiple": false
+    },
+    {
+      "id": "58",
+      "dominioAppartenenza": "Roles",
+      "question": "Who is the Scrum Master?",
+      "options": [
+        "A tester",
+        "A programmer",
+        "Facilitator and guide in Scrum",
+        "An external manager"
+      ],
+      "answer": [
+        2
+      ],
+      "multiple": false
+    },
+    {
+      "id": "59",
+      "dominioAppartenenza": "Roles",
+      "question": "What is the responsibility of the Scrum Master?",
+      "options": [
+        "Helping the team understand and use Scrum",
+        "Managing the budget",
+        "Writing code",
+        "Planning holidays"
+      ],
+      "answer": [
+        0
+      ],
+      "multiple": false
+    },
+    {
+      "id": "60",
+      "dominioAppartenenza": "Roles",
+      "question": "How does the Scrum Master support the context?",
+      "options": [
+        "By facilitating events",
+        "By writing tests",
+        "By defining the Product Goal",
+        "By teaching Scrum"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "multiple": true
+    },
+    {
+      "id": "61",
+      "dominioAppartenenza": "Roles",
+      "question": "What is the Scrum Team?",
+      "options": [
+        "A self-managing team",
+        "A group of managers",
+        "An external committee",
+        "A set of stakeholders"
+      ],
+      "answer": [
+        0
+      ],
+      "multiple": false
+    },
+    {
+      "id": "62",
+      "dominioAppartenenza": "Roles",
+      "question": "Who makes up the Scrum Team?",
+      "options": [
+        "Only management",
+        "Only Developers",
+        "Scrum Master, Product Owner, and Developers",
+        "Only stakeholders"
+      ],
+      "answer": [
+        2
+      ],
+      "multiple": false
+    },
+    {
+      "id": "63",
+      "dominioAppartenenza": "Roles",
+      "question": "What is a characteristic of the Scrum Team?",
+      "options": [
+        "It is external to the product",
+        "It is hierarchical",
+        "It is self-managing",
+        "It is cross-functional"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "multiple": true
+    },
+    {
+      "id": "64",
+      "dominioAppartenenza": "Values",
+      "question": "What are the Scrum Values?",
+      "options": [
+        "Budget, time, scope",
+        "Commitment, focus, openness, respect, courage",
+        "Transparency, inspection, adaptation",
+        "Leadership, communication, precision"
+      ],
+      "answer": [
+        1
+      ],
+      "multiple": false
+    },
+    {
+      "id": "65",
+      "dominioAppartenenza": "Events",
+      "question": "What is the Sprint?",
+      "options": [
+        "A time-box of a maximum of one month",
+        "A retrospective",
+        "A Definition of Done",
+        "A budget document"
+      ],
+      "answer": [
+        0
+      ],
+      "multiple": false
+    },
+    {
+      "id": "66",
+      "dominioAppartenenza": "Events",
+      "question": "What is created during the Sprint?",
+      "options": [
+        "A review",
+        "An Increment",
+        "A Definition of Ready",
+        "A retrospective"
+      ],
+      "answer": [
+        1
+      ],
+      "multiple": false
+    },
+    {
+      "id": "67",
+      "dominioAppartenenza": "Events",
+      "question": "Which events take place within the Sprint?",
+      "options": [
+        "Daily Scrum",
+        "Budget review",
+        "Sprint Review and Retrospective",
+        "Sprint Planning"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "multiple": true
+    },
+    {
+      "id": "68",
+      "dominioAppartenenza": "Events",
+      "question": "What is the Sprint Backlog?",
+      "options": [
+        "A Definition of Done",
+        "A list of bugs",
+        "The plan for the Sprint",
+        "A budget document"
+      ],
+      "answer": [
+        2
+      ],
+      "multiple": false
+    },
+    {
+      "id": "69",
+      "dominioAppartenenza": "Events",
+      "question": "Who creates the Sprint Backlog?",
+      "options": [
+        "The Product Owner",
+        "External management",
+        "The Developers",
+        "The stakeholders"
+      ],
+      "answer": [
+        2
+      ],
+      "multiple": false
+    },
+    {
+      "id": "70",
+      "dominioAppartenenza": "Events",
+      "question": "What does the Sprint Backlog contain?",
+      "options": [
+        "The Forecast",
+        "The plan to achieve the Sprint Goal",
+        "The Product Goal",
+        "The Definition of Ready"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "multiple": true
+    },
+    {
+      "id": "71",
+      "dominioAppartenenza": "Events",
+      "question": "What is the Sprint Goal?",
+      "options": [
+        "A retrospective",
+        "The objective of the Sprint",
+        "A review",
+        "A Definition of Done"
+      ],
+      "answer": [
+        1
+      ],
+      "multiple": false
+    },
+    {
+      "id": "72",
+      "dominioAppartenenza": "Events",
+      "question": "Who defines the Sprint Goal?",
+      "options": [
+        "Only the Scrum Master",
+        "External management",
+        "The Developers and the Product Owner",
+        "The stakeholders"
+      ],
+      "answer": [
+        2
+      ],
+      "multiple": false
+    },
+    {
+      "id": "73",
+      "dominioAppartenenza": "Events",
+      "question": "Why is the Sprint Goal important?",
+      "options": [
+        "It eliminates the need for backlog",
+        "It guides the work",
+        "It provides focus",
+        "It reduces transparency"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "multiple": true
+    },
+    {
+      "id": "74",
+      "dominioAppartenenza": "Events",
+      "question": "What is the Sprint Planning?",
+      "options": [
+        "The event for planning the Sprint",
+        "A retrospective",
+        "A Definition of Done",
+        "A review"
+      ],
+      "answer": [
+        0
+      ],
+      "multiple": false
+    },
+    {
+      "id": "75",
+      "dominioAppartenenza": "Events",
+      "question": "Who participates in the Sprint Planning?",
+      "options": [
+        "Only the Product Owner",
+        "Only management",
+        "Scrum Team",
+        "Only stakeholders"
+      ],
+      "answer": [
+        2
+      ],
+      "multiple": false
+    },
+    {
+      "id": "76",
+      "dominioAppartenenza": "Events",
+      "question": "What are the three topics of the Sprint Planning?",
+      "options": [
+        "How the work will be done",
+        "Why the Sprint is valuable",
+        "Budget review",
+        "What can be done"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "multiple": true
+    },
+    {
+      "id": "77",
+      "dominioAppartenenza": "Events",
+      "question": "What is the Sprint Retrospective?",
+      "options": [
+        "A Definition of Ready",
+        "The event for inspecting and adapting the way of working",
+        "A review",
+        "A Definition of Done"
+      ],
+      "answer": [
+        1
+      ],
+      "multiple": false
+    },
+    {
+      "id": "78",
+      "dominioAppartenenza": "Events",
+      "question": "Who participates in the Sprint Retrospective?",
+      "options": [
+        "Only stakeholders",
+        "Scrum Team",
+        "Only management",
+        "Only the Scrum Master"
+      ],
+      "answer": [
+        1
+      ],
+      "multiple": false
+    },
+    {
+      "id": "79",
+      "dominioAppartenenza": "Events",
+      "question": "What is the output of the Sprint Retrospective?",
+      "options": [
+        "A Product Goal",
+        "A Definition of Done",
+        "A review",
+        "Improvements to implement"
+      ],
+      "answer": [
+        3
+      ],
+      "multiple": false
+    },
+    {
+      "id": "80",
+      "dominioAppartenenza": "Events",
+      "question": "What is the Sprint Review?",
+      "options": [
+        "A Definition of Ready",
+        "The event for inspecting the Increment and adapting the Product Backlog",
+        "A retrospective",
+        "A Definition of Done"
+      ],
+      "answer": [
+        1
+      ],
+      "multiple": false
+    },
+    {
+      "id": "81",
+      "dominioAppartenenza": "Events",
+      "question": "Who participates in the Sprint Review?",
+      "options": [
+        "Scrum Team and stakeholders",
+        "Only the Scrum Master",
+        "Only the Product Owner",
+        "Only management"
+      ],
+      "answer": [
+        0
+      ],
+      "multiple": false
+    },
+    {
+      "id": "82",
+      "dominioAppartenenza": "Events",
+      "question": "What is the purpose of the Sprint Review?",
+      "options": [
+        "To define the budget",
+        "To gather feedback",
+        "To adapt the Product Backlog",
+        "To plan holidays"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "multiple": true
+    },
+    {
+      "id": "83",
+      "dominioAppartenenza": "Concepts",
+      "question": "What is a Stakeholder?",
+      "options": [
+        "Any person interested in the product",
+        "A Definition of Done",
+        "A review",
+        "A retrospective"
+      ],
+      "answer": [
+        0
+      ],
+      "multiple": false
+    },
+    {
+      "id": "84",
+      "dominioAppartenenza": "Concepts",
+      "question": "How do stakeholders interact with the Scrum Team?",
+      "options": [
+        "Through the Daily Scrum",
+        "Through the Sprint Review",
+        "Through the Retrospective",
+        "Through the Definition of Ready"
+      ],
+      "answer": [
+        1
+      ],
+      "multiple": false
+    },
+    {
+      "id": "85",
+      "dominioAppartenenza": "Concepts",
+      "question": "Why are stakeholders important?",
+      "options": [
+        "They help adapt the Product Backlog",
+        "They provide feedback",
+        "They eliminate the need for a backlog",
+        "They define the budget"
+      ],
+      "answer": [
+        1,
+        0
+      ],
+      "multiple": true
+    },
+    {
+      "id": "86",
+      "dominioAppartenenza": "Concepts",
+      "question": "What is Technical Debt?",
+      "options": [
+        "A retrospective",
+        "Additional work due to quick fixes",
+        "A review",
+        "A Definition of Done"
+      ],
+      "answer": [
+        1
+      ],
+      "multiple": false
+    },
+    {
+      "id": "87",
+      "dominioAppartenenza": "Concepts",
+      "question": "What is the effect of Technical Debt?",
+      "options": [
+        "It increases velocity",
+        "It reduces quality",
+        "It makes change more difficult",
+        "It eliminates the need for a backlog"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "multiple": true
+    },
+    {
+      "id": "88",
+      "dominioAppartenenza": "Concepts",
+      "question": "How is Technical Debt reduced?",
+      "options": [
+        "By planning holidays",
+        "By ignoring it",
+        "By applying engineering standards",
+        "By refactoring code"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "multiple": true
+    },
+    {
+      "id": "89",
+      "dominioAppartenenza": "Concepts",
+      "question": "What is a Time-box?",
+      "options": [
+        "A Definition of Done",
+        "A fixed maximum duration for an event",
+        "A review",
+        "A retrospective"
+      ],
+      "answer": [
+        1
+      ],
+      "multiple": false
+    },
+    {
+      "id": "90",
+      "dominioAppartenenza": "Concepts",
+      "question": "Why are Time-boxes used?",
+      "options": [
+        "To eliminate the need for a backlog",
+        "To increase transparency",
+        "To limit duration",
+        "To create focus"
+      ],
+      "answer": [
+        1,
+        2,
+        3
+      ],
+      "multiple": true
+    },
+    {
+      "id": "91",
+      "dominioAppartenenza": "Concepts",
+      "question": "What is the maximum Time-box for a Sprint?",
+      "options": [
+        "3 months",
+        "1 week",
+        "1 month",
+        "2 weeks"
+      ],
+      "answer": [
+        2
+      ],
+      "multiple": false
+    },
+    {
+      "id": "92",
+      "dominioAppartenenza": "Concepts",
+      "question": "What is Transparency in Scrum?",
+      "options": [
+        "The visibility of the process and work",
+        "A retrospective",
+        "A Definition of Done",
+        "A review"
+      ],
+      "answer": [
+        0
+      ],
+      "multiple": false
+    },
+    {
+      "id": "93",
+      "dominioAppartenenza": "Concepts",
+      "question": "Why is Transparency important?",
+      "options": [
+        "It allows inspection and adaptation",
+        "It reduces quality",
+        "It increases trust",
+        "It eliminates the need for a backlog"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "multiple": true
+    },
+    {
+      "id": "94",
+      "dominioAppartenenza": "Concepts",
+      "question": "How is Transparency achieved?",
+      "options": [
+        "With a detailed budget",
+        "With clear metrics",
+        "With visible artifacts",
+        "With the Definition of Done"
+      ],
+      "answer": [
+        1,
+        2,
+        3
+      ],
+      "multiple": true
+    },
+    {
+      "id": "95",
+      "dominioAppartenenza": "Concepts",
+      "question": "What is Inspection in Scrum?",
+      "options": [
+        "A Definition of Ready",
+        "A budget review",
+        "A regular check of artifacts and progress",
+        "A retrospective"
+      ],
+      "answer": [
+        2
+      ],
+      "multiple": false
+    },
+    {
+      "id": "96",
+      "dominioAppartenenza": "Concepts",
+      "question": "Why is Inspection important?",
+      "options": [
+        "It allows deviations to be identified",
+        "It increases transparency",
+        "It eliminates the need for adaptation",
+        "It reduces quality"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "multiple": true
+    },
+    {
+      "id": "97",
+      "dominioAppartenenza": "Concepts",
+      "question": "What is Adaptation in Scrum?",
+      "options": [
+        "A review",
+        "A Definition of Done",
+        "The adaptation of the process or work based on what has been inspected",
+        "A retrospective"
+      ],
+      "answer": [
+        2
+      ],
+      "multiple": false
+    }
+  ]

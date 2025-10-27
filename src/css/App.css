@@ -1,0 +1,107 @@
+.quiz-main { padding: 24px 12px; max-width: 650px; margin: 32px auto; background: #f7faff; border-radius: 12px; border: 1px solid #e8eaf6; box-shadow: 0 2px 12px #e0e0e0; }
+.app-title { color: #1976D2; text-align: center; margin-bottom: 32px; font-size: 1.8em; }
+.selection-container { max-width: 520px; margin: 0 auto; }
+.button-group-vertical { display: flex; flex-direction: column; gap: 16px; max-width: 320px; margin: 0 auto; }
+.select-btn { padding: 20px 32px; border: none; border-radius: 12px; font-size: 1.2em; font-weight: 700; cursor: pointer; box-shadow: 0 2px 8px rgba(0,0,0,0.15); transition: transform 0.2s, box-shadow 0.2s; }
+.select-btn:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
+.select-btn.psm1 { background: #2196F3; color: #fff; }
+.select-btn.glossario { background: #FFA726; color: #212121; }
+.select-btn.exam { background: #FF5722; color: #fff; }
+.select-btn.practice { background: #66BB6A; color: #fff; }
+.select-btn.start { background: #9C27B0; color: #fff; font-size: 1.3em; padding: 24px 40px; }
+.select-btn-desc { font-size: 0.8em; font-weight: 400;}
+.section-title { color: #1976D2; text-align: center; margin-bottom: 24px; }
+.selection-info { background: #E8F5E9; padding: 12px; border-radius: 8px; margin-bottom: 20px; text-align: center; }
+.selection-info strong { color: #2e7d32; }
+.back-btn { background: #9E9E9E; color: #fff; padding: 8px 16px; border: none; border-radius: 8px; cursor: pointer; margin-top: 16px; font-weight: 600; display: block; margin-left: auto; margin-right: auto; }
+.back-btn:hover { background: #757575; }
+
+.question-progress, .score-bar, .time-bar { display: flex; gap: 10px; align-items: center; margin-bottom: 10px; flex-wrap: wrap;}
+.badge { background: #FFC107; color: #444; font-weight: 700; border-radius: 15px; padding: 3px 11px; }
+.id-badge { background: #d0e7fa; color: #2269ad; font-size: 11px; border-radius: 10px; padding: 2px 7px; letter-spacing: 1px;}
+.option-list { list-style: none; padding: 0; margin-bottom: 22px;}
+.option-item { margin: 7px 0; padding: 6px 8px; background: #fff; border-radius: 8px; transition: background 0.2s; cursor: pointer; }
+.option-item:hover { background: #E3F2FD; }
+.option-item.selected { background: #BBDEFB; }
+.option-item label { cursor: pointer; display: flex; align-items: flex-start; gap: 8px; }
+.next-btn { background: #2196F3; color: #fff; border: none; padding: 8px 21px; border-radius: 7px; font-size: 1em; cursor: pointer; font-weight: 600; box-shadow: 0 1px 4px #e0e0e0;}
+.next-btn:hover { background: #1976D2; }
+.next-btn:disabled { background: #b6c6d6; cursor: not-allowed;}
+.loader { text-align: center; padding: 40px; font-size: 1.2em; color: #1976D2; }
+
+.result-container { max-width: 590px; margin: 34px auto; background: #fffde7; border-radius: 18px; box-shadow: 0 3px 14px #FFECB3; padding: 32px 16px;}
+.quiz-info-result, .error-section { display: flex; gap: 10px; justify-content: center; margin-bottom: 16px; }
+.info-badge { background: #E3F2FD; color: #1565C0; font-size: 0.85em; font-weight: 600; border-radius: 12px; padding: 4px 12px; border: 1px solid #90CAF9; }
+.status-badge.pass { background: #C8E6C9; color: #2e7d32; font-weight: 700; border-radius: 14px; padding: 4px 16px;}
+.status-badge.fail { background: #FFCDD2; color: #b71c1c; font-weight: 700; border-radius: 14px; padding: 4px 16px;}
+.restart-btn { margin-top: 6px; background: #FFA726; color: #212121; font-weight: 700; border-radius: 10px; border: none; padding: 8px 21px; cursor: pointer;}
+.restart-btn:hover { background: #FB8C00; }
+.mistake-list { margin-top: 14px; padding-left: 0; list-style: none;}
+.mistake-item { background: #FFEBEE; border-radius: 7px; padding: 10px 8px; margin-bottom: 11px; box-shadow: 0 1px 6px #f8bbd0;}
+.no-mistakes { color: #2e7d32; font-weight: 600; font-size: 1.07em;}
+.right { color: #388E3C; }
+.wrong { color: #B71C1C; }
+.footer-signature {
+  position: fixed;
+  right: 20px;
+  bottom: 12px;
+  font-size: 0.85em;
+  color: #888;
+  background: #f2f2f2;
+  padding: 4px 18px 4px 12px;
+  border-radius: 12px 0 0 0;
+  box-shadow: 0 0 6px #e0e0e0;
+  z-index: 100;
+  opacity: 0.80;
+  pointer-events: none;
+  user-select: none;
+}
+.home-screen { text-align: center; padding: 48px 12px; }
+.home-title { color: #1976D2; font-size: 2.1em; margin-bottom: 17px; display: flex; align-items: center; gap: 14px; justify-content: center;}
+.version { font-size: 0.6em; color: #5a89c9; font-weight: 600; margin-left: 10px;}
+.home-desc { font-size: 1.09em; color: #385175; margin-bottom: 34px; }
+.home-options { display: flex; flex-wrap: wrap; justify-content: center; gap: 28px; }
+.select-btn.big { min-width: 210px; min-height: 90px; font-size: 1.35em; border-radius: 20px; padding: 20px 32px 14px 32px;}
+.quiz-type-desc { font-size: 0.84em; font-weight: 500; color: #516776; margin-top: 3px; }
+@media (max-width: 600px) {
+  .home-options { flex-direction: column; gap: 18px; }
+}
+.quiz-headline { display: flex; flex-direction: column; align-items: center; margin-bottom: 18px; }
+.quiz-exam-info { display: flex; gap: 10px; margin-top: 9px;}
+.timer-block { display: flex; gap: 12px; align-items: center; background: #eaf6ff; padding: 6px 18px; border-radius: 14px; margin: 8px 0;}
+.stopwatch {font-size: 1.11em; margin-right: 3px;}
+.pause-btn, .live-stats-btn { margin-left: 6px; background: #E8F5E9; color: #1976D2; padding: 5px 17px; border: none; border-radius: 9px; font-weight: 600; cursor: pointer;}
+.pause-btn:hover, .live-stats-btn:hover { background: #cbe2ff; }
+.live-stats-panel { margin-top: 14px; background: #f1f8e9; border: 1px solid #c5e1a5; border-radius: 10px; padding: 7px 12px; }
+.live-stat-row { display: flex; justify-content: space-between; align-items: center; margin: 4px 0; }
+.live-label { font-weight: 600; color: #33691e; }
+.live-value { font-weight: 700; color: #2e7d32; }
+.live-value.success { color: #1b5e20; }
+.live-hint { margin-top: 6px; font-size: 0.94em; color: #5d6d5f; }
+.mode-info-badge {
+  margin-top: 7px;
+  margin-bottom: 18px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.esame-badge {
+  background: #244eb9;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 15px;
+  font-size: 1.09em;
+  padding: 6px 22px;
+  letter-spacing: 1px;
+  box-shadow: 0 1px 6px #e0e0e0;
+}
+.allenamento-badge {
+  background: #54be72;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 15px;
+  font-size: 1.09em;
+  padding: 6px 22px;
+  letter-spacing: 1px;
+  box-shadow: 0 1px 6px #e0e0e0;
+}

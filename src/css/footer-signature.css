@@ -1,0 +1,11 @@
+.footer-signature {
+  position: fixed;
+  right: 24px;
+  bottom: 16px;
+  color: #b0b0b0;
+  font-size: 0.95em;
+  z-index: 99;
+  pointer-events: none;
+  user-select: none;
+  font-style: italic;
+}
